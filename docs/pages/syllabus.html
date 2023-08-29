@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="  - Harvard University, Institute for Applied Computational Science. "
+    />
+    <meta name="author" content="" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:300,400,700"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="../style/tipuesearch/tipuesearch.css"
+    />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="../style/images/favicon.ico"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="../style/css/iacs.css" />
+
+    <title>Harvard CS107 / AC207 | Syllabus</title>
+
+    <style>
+      .navbar {
+        background-color: #EFEFEF
+      }
+
+      .katex {
+        font: normal 1.21em KaTeX_Math, Times New Roman, serif !important;
+      }
+    </style>
+  </head>
+  <body>
+<nav class="navbar navbar-dark navbar-expand-md">
+  <div class="container">
+    <a class="navbar-brand" href="..">
+      <img
+        class="navbar-brand-logo"
+        src="../style/images/logo.png"
+      />
+      <h3 class="course-title">CS107 / AC207</h3>
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarsDefault"
+      aria-controls="navbarsDefault"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsDefault">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/syllabus.html">Syllabus</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/schedule_static.html">Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/project.html">Project</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/tutorials.html">Tutorials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/resources.html">Resources</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/cpp_primer.html">C/C++ Primer</a>
+        </li>
+        <form
+          class="form-inline my-2"
+          action="../search.html"
+          onsubmit="return validateForm(this.elements['q'].value);"
+        >
+          <div class="input-group input-group-sm">
+            <input
+              class="form-control"
+              type="text"
+              name="q"
+              placeholder="Search Topic"
+            />
+            <div class="input-group-append">
+              <button class="btn btn-default" type="submit">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </ul>
+    </div>
+    <!-- .collapse navbar-collapse -->
+  </div>
+  <!-- .container -->
+</nav>
+    <main id="content" class="container">
+  <h1>Syllabus</h1>
+  <h2><a id="cobjective"></a><a class="anchor-link" href="#cobjective">Course Objective</a></h2>
+<p>The primary goal of this course is to teach you how to develop effective
+software for scientific applications. In order to achieve this goal, there are
+several non-negotiable topics that must be included in the course.  We will be
+concerned with two primary thrusts:  <em>System and Software Engineering</em> and
+<em>Language</em>.  Moreover, we aim to provide you with a suite of modern software
+development techniques and workflows.</p>
+<p>A short <code>pdf</code> version of the syllabus can be <a href="../pages/media/cs107_syllabus.pdf">downloaded
+here</a>.</p>
+<h2><a id="lobjective"></a><a class="anchor-link" href="#lobjective">Learning Objective</a></h2>
+<p>After successful completion of this course, you will be able to:</p>
+<blockquote>
+<ul>
+<li>Use Python, including its advanced features to write scientific programs</li>
+<li>Have a basic idea how the Python interpreter works</li>
+<li>Understand what features of Python make up its language execution model and how these features impact
+  the code you write: e.g. how modularity, abstraction, and encapsulation can
+  be used to solve problems</li>
+<li>Write programs with good software engineering practices.  These
+  practices include: working on remote machines, version control, continuous
+  integration, documentation and testing.</li>
+<li>Utilize data management techniques to store data, starting from a good
+  understanding of data structures to databases.</li>
+<li>Combine these techniques together to write large pieces of software (you
+  will do a group project for this), working in a team of scientists,
+  programmers, etc.</li>
+<li>Evaluate and test software to see which one your group ought to use.</li>
+<li>Be able to contribute on both the science and software engineering sides of
+  things.</li>
+</ul>
+</blockquote>
+<h2><a id="prerequisites"></a><a class="anchor-link" href="#prerequisites">Prerequisites</a></h2>
+<p>You should have some basic familiarity with programming (functions, variables,
+constants, differences between integer and floating point, etc.) at the level of
+CS50. Some comfort with a tool to edit text files is beneficial.  Any text
+editor or IDE will suit this purpose.</p>
+<p>The student should have passed a basic calculus class.  The project will require
+the use of the chain rule.  The lectures will review the necessary fundamentals
+required to succeed with the class project.</p>
+<p>Besides this, you should have interest or investment in scientific computing.</p>
+<p>You can download Homework 0 for self-assessment
+<a href="../pages/media/hw0.pdf">here</a> (not graded).  You do not need to be able
+to solve all problems in order to take this class.</p>
+<h3><a id="prerequisites-jupyter"></a><a class="anchor-link" href="#prerequisites-jupyter">Jupyter Notebooks</a></h3>
+<p><a href="https://jupyter.org/">Jupyter</a> notebooks are great for code prototyping and
+learning how to use new features and APIs. However,
+they are <strong>not</strong> suitable for large software development projects!  One reason
+for this is because code development in Jupyter notebooks is a nonlinear
+development process and there is presently no good solution 
+for version control of Jupyter notebooks.  A second reason is the question of
+efficient source editing.  A helpful tool to convert (back and forth) Jupyter 
+notebooks to pure python code is <a href="https://pypi.org/project/jupytext/">Jupytext</a>.</p>
+<blockquote>
+<p><strong>Homework assignments and lecture exercises turned in as Jupyter notebooks
+will not be graded.</strong></p>
+</blockquote>
+<h2><a id="textbooks"></a><a class="anchor-link" href="#textbooks">Textbooks</a></h2>
+<p>There is no required course textbook.  However, the course content will draw
+from various sources.  We will cite the source when appropriate.  Please consult
+the <a href="../pages/resources.html">resources page</a> for recommended textbooks and
+additional helpful material. </p>
+<h2><a id="course-format"></a><a class="anchor-link" href="#course-format">Course Format</a></h2>
+<p>The delivery of course content will occur via two weekly lectures as well as
+weekly pair-programming sections.  Attending these sessions is <strong>mandatory</strong>.
+Lectures will consist of considerable interaction and discussion and will be
+greatly enhanced by student participation.</p>
+<p>The course contains the following main components:</p>
+<ol>
+<li><strong>Lectures:</strong> Deliver the main content of the class.   <a
+   href="./syllabus.html#attendance-policy">Attendance is mandatory.</a></li>
+<li><strong>Quizzes:</strong> Graded in-class quizzes intended to assess the learning progress.</li>
+<li><strong>Pair-programming:</strong> Pair-programming (PP) sections offer practice on topics
+   addressed in class and help assess the skills to program in a collaborative
+   environment.  <a href="./syllabus.html#attendance-policy">Attendance is
+   mandatory.</a></li>
+<li><strong>Homeworks:</strong> Homework assignments deepen the lecture material and include
+   coding exercises.  Exercises may be of theoretical or practical nature.</li>
+<li><strong>Projects:</strong> The class is accompanied by a project (teams of 4-5 students)
+   to practice the methods learned in class on a real Python application.  The
+   project topic is given by the teaching staff.</li>
+</ol>
+<p>The main programming language taught throughout the course is Python.  In
+addition, a voluntary <a href="../pages/cpp_primer.html"><code>C/C++</code> primer class</a> that
+consists of 10 lectures will be held during the semester.  This primer is highly
+recommended if you like to strengthen your skills in a programming language that
+is closer to the hardware and widely used in research and industry.  If you plan
+on taking <a href="https://harvard-iacs.github.io/2022-CS205/">CS205</a> in the spring
+semester, please consider taking this primer as basic knowledge of <code>C/C++</code> will
+be required for that class.</p>
+<h3><a id="grading"></a><a class="anchor-link" href="#grading">Grading</a></h3>
+<blockquote>
+<p>The following weight table is used for individual components of the class. The
+class does not have standard midterm or final exams.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Total Weight</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#homework"><strong>Homework</strong></a> (7 Homeworks)</td>
+<td>35%</td>
+</tr>
+<tr>
+<td><a href="#project"><strong>Project</strong></a></td>
+<td>35%</td>
+</tr>
+<tr>
+<td><a href="#quizzes"><strong>Quizzes</strong></a>  (4 Quizzes)</td>
+<td>15%</td>
+</tr>
+<tr>
+<td><a href="#pp"><strong>Pair-programming</strong></a> (12 sections)</td>
+<td>10%</td>
+</tr>
+<tr>
+<td><a href="#contributions"><strong>Communal Contributions</strong></a></td>
+<td>5%</td>
+</tr>
+</tbody>
+</table>
+</blockquote>
+<h3><a id="homework"></a><a class="anchor-link" href="#homework">Homework</a></h3>
+<p>There are <strong>7 homework assignments</strong> where each contributes equally to the final
+grade. The homework is focused on the topics discussed in class and involves
+programming and theoretical work.  The teaching staff is determined to return
+solutions and graded assignments with feedback shortly after the due date.  It
+is <em>your responsibility</em> to check the consistency between your graded work and
+the assignment solution.  You have the option to address possible
+inconsistencies in office hours or request a regrading for the assignment (see
+the <a href="./syllabus.html#homework-regrade">homework grading
+inconsistencies</a> section below). Homework will be released on the
+<a href="https://code.harvard.edu/CS107/main">CS107/AC207 class repository</a>.  Push
+notifications for that repository will be distributed through the <a
+href="../#class-mailinglist">class mailing list</a>.  Homework will be graded on
+a 100 point scale:</p>
+<blockquote>
+<ul>
+<li>100 = Solid / no mistakes (or really minor ones)</li>
+<li>80 = Good / some mistakes</li>
+<li>60 = Fair / some major conceptual errors</li>
+<li>40 = Poor / did not finish</li>
+<li>20 = Very Poor / little to no attempt.</li>
+<li>0 = Did not participate / did not hand in</li>
+</ul>
+</blockquote>
+<h4><a id="homework-submission"></a><a class="anchor-link" href="#homework-submission">Homework Submission</a></h4>
+<p>Homework must be submitted via commits in your private <code>git</code> repository hosted
+in the CS107 organization at <a href="https://code.harvard.edu/CS107">https://code.harvard.edu/CS107</a>.  Grading and
+feedback for homework is done through the <a href="https://canvas.harvard.edu/courses/108118/external_tools/89451?display=borderless">Gradescope
+platform</a>
+which is connected to the class' <a href="https://canvas.harvard.edu/courses/108118">Canvas
+site</a>.  Your homework solutions must
+therefore be zipped and uploaded in the Gradescope section of the class canvas.
+See the <a href="./tutorials.html#tutorial-hw">homework workflow tutorial</a>
+for more details.</p>
+<p>The homework due date is indicated on the problem sheet and displayed in the <a
+href="./schedule_static.html">schedule</a> as well as shown on Canvas and
+Gradescope.  Homework submissions will be graded on:</p>
+<ol>
+<li><strong>Correctness:</strong> your code must run and must produce the correct
+   result.  We are not debugging issues when grading submissions.</li>
+<li><strong>Presentation:</strong> presentation means structure and readability. We expect you
+   to write high-quality, readable and tested code. A quality code is well
+   commented in places where it is not straight forward to deduce the logic from
+   code itself (from the reviewers perspective).  We expect you to think about
+   aspects such as modularity, reusability, code duplication and error handling
+   when you design and write code. Presentation of results also means that
+   unnecessary or superfluous files like editor backup files or other unrelated
+   data should not be included in the submission commits (use <code>.gitignore</code> for
+   this purpose).</li>
+</ol>
+<blockquote>
+<p>See the following tutorials to help you get started with homework submissions:</p>
+<ul>
+<li><a href="./tutorials.html#tutorial-repo">How to setup your private class repository</a> (onetime setup)</li>
+<li><a href="./tutorials.html#tutorial-hw">Homework workflow</a></li>
+</ul>
+</blockquote>
+<h4><a id="homework-late"></a><a class="anchor-link" href="#homework-late">Homework Late Days</a></h4>
+<p>Homework submissions are accepted before the deadline of the assignment is due.
+You have <strong>three late days</strong> at your disposal that can be consumed for late
+submissions and two consecutive late days can be used at most for any of the
+homework assignments.</p>
+<p>Please note that any commits on your homework branch pushed <em>after the deadline
+has passed are not considered for grading</em> by default.  If you wish that we
+consider a late commit for grading, 
+please contact the teaching staff at
+<a href="mailto:cs107-staff@g.harvard.edu"><code>cs107-staff@g.harvard.edu</code></a>
+with appropriate explanation.  This will count towards your late day budget.</p>
+<p>It is your responsibility to plan your work ahead and commit on time.  If you
+have consumed all your late days and you have another late submission, it is in
+your benefit to still commit the work.  We assume the <a href="https://honor.fas.harvard.edu/honor-code">Harvard Honor
+Code</a> for all late submissions in case
+solutions are already posted.</p>
+<p>If you have a verifiable medical condition or other special circumstances that
+interfere with your coursework please let us know via 
+<a href="mailto:cs107-staff@g.harvard.edu"><code>cs107-staff@g.harvard.edu</code></a>
+as soon as possible.</p>
+<h4><a id="homework-regrade"></a><a class="anchor-link" href="#homework-regrade">Homework Grading Errors</a></h4>
+<p>If you believe there is an error in your assignment grading, you can submit a
+regrade request through the <a href="https://canvas.harvard.edu/courses/108118/external_tools/89451?display=borderless">Gradescope
+platform</a>.</p>
+<blockquote>
+<p><strong>Note:</strong></p>
+<ol>
+<li>The <strong>entire</strong> assignment will be regraded.  <em>This may cause your total
+   grade go up or down</em>.</li>
+<li>An assignment can only be <strong>regraded once</strong>.</li>
+<li>Regrade requests are <strong>due within 2 days after the release of the grades</strong>.</li>
+</ol>
+</blockquote>
+<h3><a id="project"></a><a class="anchor-link" href="#project">Project</a></h3>
+<p>Please see the <a href="./project.html">project</a> section for more details.</p>
+<h3><a id="quizzes"></a><a class="anchor-link" href="#quizzes">Quizzes</a></h3>
+<p>There are <strong>4 quizzes</strong> out of class which are graded and intended to assess the
+learning progress.  Each quiz addresses topics <em>from the lecture material</em>.
+Quizzes are open book/<code>www</code> and include multiple choice questions with at most
+back of the envelope calculations.  Quizzes contain 12 questions and take 25
+minutes.  They are accessible on canvas within a 12 hour time window from 9am to
+9pm at the day of the quiz.</p>
+<blockquote>
+<p><strong>Note:</strong> if a quiz takes 25 minutes and you start the quiz on 8:50pm, you
+will have only 10 minutes to work on the quiz.</p>
+<ul>
+<li><strong>Quiz 1: September 22nd, 7:00pm - 7:45pm</strong>, Lecture 1 to 5</li>
+<li><strong>Quiz 2: October 13th, 9:00am - 9:00pm</strong>, Lecture 6 to 9 (no automatic differentiation)</li>
+<li><strong>Quiz 3: November 10th, 9:00am - 9:00pm</strong>, Lecture 10 to 16</li>
+<li><strong>Quiz 4: December 1st, 9:00am - 9:00pm</strong>, Lecture 17 to 24</li>
+</ul>
+<p>Please see the class <a href="./schedule_static.html">schedule</a> as well.</p>
+</blockquote>
+<h3><a id="pp"></a><a class="anchor-link" href="#pp">Pair-Programming Sections</a></h3>
+<p>Pair-Programming will form an essential part of the course. Pair-programming
+will take place in <strong>mandatory</strong> pair-programming sections led by members of the
+teaching staff.  You are required to sign-up for your preferred pair-programming
+section at the beginning of the semester.  You are expected to attend your
+chosen section during the semester.  Should you not be able to attend one of
+your sections, please coordinate with your section TF to attend another section
+this week in order to obtain the attendance credit.</p>
+<p>In CS107/AC207 we are focusing on command line tools for the development of
+software projects in computational science.  It is important that you get
+familiar with a small selection of such tools and integrate them in your
+development process. The pair-programming sections aim at combining some of
+these tools together to provide you with hands-on experience while developing
+software.  The key is the "pair" in pair-programming.  The exchange of knowledge
+between team mates in these pair-programming sections is essential for learning
+said tools or learning something new from your peers.</p>
+<blockquote>
+<p>Please see the following file in the class <code>git</code> repository for the details:</p>
+<ul>
+<li><a href="https://code.harvard.edu/CS107/main/blob/master/lab_groups.xls">https://code.harvard.edu/CS107/main/blob/master/lab_groups.xls</a></li>
+</ul>
+</blockquote>
+<h4><a id="pp-submission"></a><a class="anchor-link" href="#pp-submission">Pair-programming Submissions</a></h4>
+<p>Pair-programming exercise solutions must be submitted in your private <code>git</code>
+repository hosted in the CS107 organization at <a href="https://code.harvard.edu/CS107">https://code.harvard.edu/CS107</a>.
+<strong>Only commits before or at the due date are considered for grading</strong>.  The
+deadline for submission is usually <em>one week</em> after the last section for the
+exercise.  Given this extra time for completion, <strong>late days do not apply to
+pair-programming exercises</strong>.</p>
+<p>The submission due date is indicated on the problem sheet and displayed in the
+<a href="./schedule_static.html">schedule</a>.  As you are working in groups of
+3-4 students for the lab exercises, the solution files you come up with in the
+group are submitted by each group member individually in her/his own private Git
+repository. Pair-programming submissions will be graded on:</p>
+<ol>
+<li><strong>Attendance:</strong> your attendance will be recorded by the TF who leads the
+   section. Joining the section at the beginning and then leaving 10-15 minutes
+   later will not reward attendance credit.  If you need to leave because of
+   another appointment then it is expected that you communicate before hand and
+   coordinate with your TF. Please see the <a
+   href="./syllabus.html#attendance-policy">attendance policy</a> section below
+   as well.  Your pair-programming session is determined at the beginning of the
+   class by choosing lab sections in <a href="https://my.harvard.edu/">my.harvard</a>.  You
+   can select your preferences depending on your schedule. Once determined, you
+   can lookup your session details in the
+   <a href="https://code.harvard.edu/CS107/main/blob/master/lab_groups.xls">https://code.harvard.edu/CS107/main/blob/master/lab_groups.xls</a> sheet.</li>
+<li><strong>Completion:</strong> pair-programming submissions should reveal effort that the
+   student attempted to solve the tasks.  If you experience difficulties in a
+   particular problem and you are not able to complete the task, please indicate
+   the issues you had in your code using comments and we will take that
+   reasoning into account.  Handing in an empty skeleton (same as hand-out) does
+   not meet the expected standard and will not award credit for the submission.</li>
+</ol>
+<blockquote>
+<p>See the following tutorial to help you get started with pair-programming
+submissions:</p>
+<ul>
+<li><a href="./tutorials.html#tutorial-pp">Pair-programming workflow</a></li>
+</ul>
+</blockquote>
+<h3><a id="contributions"></a><a class="anchor-link" href="#contributions">Communal Contributions</a></h3>
+<p>The frequency with which you visit and/or post to the <a
+href="../#class-forum">class forum</a> can contribute to your final <a
+href="./syllabus.html#grading">grade</a>.  These contributions must have
+intellectual value and can be in the form of questions and/or answers related to
+class material.  Be mindful about sharing sensitive material such as solution
+code for homeworks.  If in doubt, try to rephrase your question/answer or ask
+the teaching staff via
+<a href="mailto:cs107-staff@g.harvard.edu"><code>cs107-staff@g.harvard.edu</code></a>
+whether the content is permissible to share.  Factors that contribute are
+frequency of visits, posing questions, giving answers, commenting and liking
+posts as well as creating posts.</p>
+<h3><a id="office-hours"></a><a class="anchor-link" href="#office-hours">Office Hours</a></h3>
+<p>The teaching staff holds weekly office hours. Office hour times and locations
+are listed on the class main page. Office hours provide you with an opportunity
+to review and discuss course materials as well as provide you with further
+guidance for your homework.</p>
+<blockquote>
+<p>Please see the following file in the class <code>git</code> repository for the details:</p>
+<ul>
+<li><a href="https://code.harvard.edu/CS107/main/blob/master/office_hours.xls">https://code.harvard.edu/CS107/main/blob/master/office_hours.xls</a></li>
+</ul>
+</blockquote>
+<h2><a id="attendance-policy"></a><a class="anchor-link" href="#attendance-policy">Attendance Policy</a></h2>
+<p>Lectures and pair-programming sections are core parts of the class and therefore
+mandatory to attend.  </p>
+<p>Pair-programming sections (labs) will be held on weekdays that we determine at
+the beginning of the class according to a best fit of the students' individual
+schedules for the term.  You are required to attend the labs at the assigned lab
+day.  Rescheduling of a lab to a different day due to an unforeseeable event
+must be coordinated with the responsible TF by sending an email to
+<a href="mailto:cs107-staff@g.harvard.edu"><code>cs107-staff@g.harvard.edu</code></a>.</p>
+<blockquote>
+<p>To be excused from a lecture or a lab, we ask you to follow the <a href="https://honor.fas.harvard.edu/honor-code">Harvard Honor
+Code</a> and send an email to
+<a href="mailto:cs107-staff@g.harvard.edu"><code>cs107-staff@g.harvard.edu</code></a>
+at least one day before the lecture or lab.  Lecture recordings are available
+only when students are excused for a lecture.</p>
+</blockquote>
+<h3><a id="attendance-policy-zoom"></a><a class="anchor-link" href="#attendance-policy-zoom">Zoom</a></h3>
+<p>Classes and labs will be streamed via zoom for you to attend real time while in
+isolation.  Note that attendance on zoom is not a substitute for in-person
+participation.  The main attention will be on the physical audience present
+(unless the entire class must be shifted to virtual meetings depending on
+Harvard COVID updates). Please follow the steps in the "Attendance Policy"
+section above to attend the zoom streams.  If you are isolating you must not
+send notifications for every lecture or lab, one notification to let us know is
+sufficient.  Thank you.</p>
+<blockquote>
+<p>Please see the <a href="../#important">important information</a> for the
+canvas page that contains the lecture zoom link.</p>
+<p>The zoom links for the lab sessions and office hours are given in the
+<code>lab_groups.xls</code> and <code>office_hours.xls</code> files in the main class <code>git</code>
+repository:</p>
+<p><a href="https://code.harvard.edu/CS107/main">https://code.harvard.edu/CS107/main</a></p>
+</blockquote>
+<h2><a id="collaboration-policy"></a><a class="anchor-link" href="#collaboration-policy">Collaboration Policy</a></h2>
+<p>You are welcome to discuss the course material and homework with others in order
+to better understand it, but the work you turn in must be your own (with
+exception of the project where collaborative work is permitted). Any work that
+is not your own, without properly citing the original author(s), is considered
+plagiarism. Failure to follow the academic integrity and dishonesty guidelines
+outlined in the <a href="https://handbook.college.harvard.edu/">Harvard Student
+Handbook</a> will have an adverse effect on
+your final grade. This includes the removal of copyright notices in code. You
+may not submit the same or similar work to this course that you have submitted
+or will submit to another without permission.  The teaching staff may use tools
+to compute correlations between submitted work.</p>
+<h2><a id="accessibility"></a><a class="anchor-link" href="#accessibility">Accessibility</a></h2>
+<p>If you have a documented disability (physical or cognitive) that may impair your
+ability to complete assignments or otherwise participate in the course and
+satisfy course criteria, please contact the teaching staff or directly the
+<a href="https://aeo.fas.harvard.edu/">Accessible Education Office</a> to receive an AEO
+letter that will authorize us to help you with corresponding accommodations.</p>
+<h2><a id="diversity-statement"></a><a class="anchor-link" href="#diversity-statement">Diversity Statement</a></h2>
+<p>All participants in this class are expected to foster empathy and respect
+towards each other.  This includes instructors, teaching staff or students.  The
+motivation to take this course shall be to experience the joy of learning in an
+environment that allows for a diversity of thoughts, perspectives and
+experiences and honors your identity including race, gender, class, sexuality,
+religion, ability, etc.  Any constructive feedback for improving the class
+environment is welcome and I encourage you to reach out to the instructor or
+teaching staff with any concerns you may have. If you prefer to speak with
+someone outside of the course, you may find helpful resources at the <a href="https://diversity.college.harvard.edu/">Harvard
+Office of Diversity and Inclusion</a>.</p>
+    </main>
+
+<footer class="footer">
+  <div class="container">
+    <span class="text-muted">Copyright 2022 &copy;
+      <a class="text-muted" href="https://iacs.seas.harvard.edu/">Institute for Applied Computational Science</a>
+    </span>
+  </div>
+</footer>     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

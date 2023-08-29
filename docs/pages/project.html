@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="  - Harvard University, Institute for Applied Computational Science. "
+    />
+    <meta name="author" content="" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:300,400,700"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="../style/tipuesearch/tipuesearch.css"
+    />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="../style/images/favicon.ico"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="../style/css/iacs.css" />
+
+    <title>Harvard CS107 / AC207 | CS107/AC207 Project</title>
+
+    <style>
+      .navbar {
+        background-color: #EFEFEF
+      }
+
+      .katex {
+        font: normal 1.21em KaTeX_Math, Times New Roman, serif !important;
+      }
+    </style>
+  </head>
+  <body>
+<nav class="navbar navbar-dark navbar-expand-md">
+  <div class="container">
+    <a class="navbar-brand" href="..">
+      <img
+        class="navbar-brand-logo"
+        src="../style/images/logo.png"
+      />
+      <h3 class="course-title">CS107 / AC207</h3>
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarsDefault"
+      aria-controls="navbarsDefault"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsDefault">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/syllabus.html">Syllabus</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/schedule_static.html">Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/project.html">Project</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/tutorials.html">Tutorials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/resources.html">Resources</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/cpp_primer.html">C/C++ Primer</a>
+        </li>
+        <form
+          class="form-inline my-2"
+          action="../search.html"
+          onsubmit="return validateForm(this.elements['q'].value);"
+        >
+          <div class="input-group input-group-sm">
+            <input
+              class="form-control"
+              type="text"
+              name="q"
+              placeholder="Search Topic"
+            />
+            <div class="input-group-append">
+              <button class="btn btn-default" type="submit">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </ul>
+    </div>
+    <!-- .collapse navbar-collapse -->
+  </div>
+  <!-- .container -->
+</nav>
+    <main id="content" class="container">
+  <h1>CS107/AC207 Project</h1>
+  <h2><a id="project-overview"></a><a class="anchor-link" href="#project-overview">Project Overview</a></h2>
+<h3><a id="project-goal"></a><a class="anchor-link" href="#project-goal">Goal</a></h3>
+<p>You will develop a software library for a client (the teaching staff).  The
+development of this library will leverage modern software development practices
+covered in the course.  By the end of the semester, the client should be able to
+easily install and run your package.</p>
+<h3><a id="project-topic"></a><a class="anchor-link" href="#project-topic">Topic</a></h3>
+<p>The project topic is <strong>automatic differentiation</strong> (AD).  AD is a very broad
+area spanning computer science and mathematics with applications in fields
+across science and engineering.  We will only briefly graze the surface of this
+fascinating technique; indeed, AD is broad enough that it could form an entire
+course in its own right.  Even so, your final project is to write a <code>python</code>
+automatic differentiation library.  Your library is not required to contain all
+aspects of AD; that would simply be too much for a single semester.  However,
+your library should meet the basic project expectations outlined in the
+following sections.</p>
+<h3><a id="project-milestones"></a><a class="anchor-link" href="#project-milestones">Project Milestones</a></h3>
+<blockquote>
+<p>The following weight table is used for individual milestones of the project. The
+individual milestones make up the final project grade listed under the
+ <a href="./syllabus.html#grading">Grading</a> section in the syllabus.
+<strong>The due date for the final milestone is December 10th 2022, 11:59 PM.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Milestone</th>
+<th>Due</th>
+<th>Total Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../project/M1A/">Milestone 1A</a></td>
+<td>Thu, September 22nd, 11:59 PM</td>
+<td>2</td>
+</tr>
+<tr>
+<td><a href="../project/M1B/">Milestone 1B</a></td>
+<td>Tue, October 4th, 11:59 PM</td>
+<td>3</td>
+</tr>
+<tr>
+<td><a href="../project/M1/">Milestone 1</a></td>
+<td>Thu, October 20th, 11:59 PM</td>
+<td>15</td>
+</tr>
+<tr>
+<td><a href="../project/M2A/">Milestone 2A</a></td>
+<td>Tue, November 1st, 11:59 PM</td>
+<td>2</td>
+</tr>
+<tr>
+<td><a href="../project/M2B/">Milestone 2B</a></td>
+<td>Thu, November 10th, 11:59 PM</td>
+<td>2</td>
+</tr>
+<tr>
+<td><a href="../project/M2/">Milestone 2</a></td>
+<td><span style="text-decoration: line-through;">Thu</span> Tue, November <span style="text-decoration: line-through;">17th</span> 22nd, 11:59 PM</td>
+<td>30</td>
+</tr>
+<tr>
+<td><a href="../project/FD/">Final Milestone</a></td>
+<td>Sat, December 10th, 11:59 PM</td>
+<td>104</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td></td>
+<td>158</td>
+</tr>
+</tbody>
+</table>
+</blockquote>
+<h3><a id="project-groups"></a><a class="anchor-link" href="#project-groups">Groups</a></h3>
+<p>You will work in groups of 4-5 students.  You are free to choose your project
+partners but groups sizes must consist of the number of students mentioned
+before.  Some members of the group will be stronger than others.  It is expected
+that you <em>work together</em> and help each other as needed.  This is an opportunity
+for less experienced coders to improve their skills by working with more
+experienced coders.  Every person must contribute.</p>
+<h2><a id="project-expectations"></a><a class="anchor-link" href="#project-expectations">Expectations</a></h2>
+<p>This project has a few non-negotiable expectations, which are outlined in
+<strong>basic expectations</strong>.  The project also has a more open-ended component, which
+is described in <strong>additional expectations</strong>.</p>
+<h3><a id="project-requirements"></a><a class="anchor-link" href="#project-requirements">Basic Expectations</a></h3>
+<ul>
+<li>Python library that can be used for automatic differentiation with a working
+  forward mode implementation.</li>
+<li>The client should be able to easily install the library, run the tests, access
+  the documentation, and use the library for their application.</li>
+<li>Documentation for every subsystem in the project must be provided.</li>
+<li>Link to the docs from the <code>README.md</code> in each folder.</li>
+<li>The top level <code>README.md</code> should contain an overview, links to other docs, and
+  an installation guide which will help us install and test your system.</li>
+<li>The project must utilize a proper packaging system for distribution and
+  installation of the library.</li>
+<li>The project must ship with a test suite.  Documentation on how to run the
+  tests is mandatory.</li>
+</ul>
+<h3><a id="project-additional"></a><a class="anchor-link" href="#project-additional">Additional Expectations</a></h3>
+<p>AD is extremely versatile. It finds applications in optimization, machine
+learning, and numerical methods (e.g. time integration, root-finding). There are
+also many different ways of implementing an AD package. In addition to the basic
+requirements of writing a forward mode AD library, you must also extend your
+package in some way. There are many options here and the teaching staff will
+have to approve your proposed extension. Here are a few general ideas (you will
+need to specialize them):</p>
+<ul>
+<li>Implement reverse mode</li>
+<li>Implement a mixed mode</li>
+<li>Implement back propagation</li>
+<li>Write an application that uses your AD library<ul>
+<li>Implicit time-integrator</li>
+<li>Optimization</li>
+<li>Root-finder</li>
+</ul>
+</li>
+<li>Option for higher-order derivatives (Hessians and beyond)</li>
+</ul>
+<p><strong>Note</strong>:  If you elect to write an application that uses your AD library, then
+you must speak to the teaching staff first. There are certain instances where it
+might make sense to package your application together with your AD library (e.g.
+<code>pytorch</code>). However, it may be a better idea to keep the two libraries separate.
+In such a case, the teaching staff will need to approve your proposed extension
+and assess its efficacy.</p>
+<p>You are more than welcome to pitch your own idea.</p>
+<h3><a id="project-impact"></a><a class="anchor-link" href="#project-impact">Broader Impact</a></h3>
+<p>You must write a broader impact statement for your library. The broader impact
+should consider the accessibility of your software library to different groups
+of people. This statement should be around 250 words (approximately 1/2 page).
+It can be placed in the <code>README.md</code> of your library. Things to consider when
+writing this statement are:</p>
+<ol>
+<li>How will you make your library accessible to different groups?</li>
+<li>What process will contributions to your library need to go through?</li>
+<li>How will you ensure that this process is fair and welcoming to all groups?</li>
+</ol>
+    </main>
+
+<footer class="footer">
+  <div class="container">
+    <span class="text-muted">Copyright 2022 &copy;
+      <a class="text-muted" href="https://iacs.seas.harvard.edu/">Institute for Applied Computational Science</a>
+    </span>
+  </div>
+</footer>     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
