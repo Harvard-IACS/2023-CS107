@@ -273,7 +273,7 @@ said tools or learning something new from your peers.
 
 Pair-programming exercise solutions must be submitted in your private `git`
 repository hosted in the CS107 organization at <https://code.harvard.edu/CS107>.
-**Only commits before or at the due date are considered for grading**.  The
+**Only commits made on or before the due date will be considered for grading**.  The
 deadline for submission is usually _one week_ after the last section for the
 exercise.  Given this extra time for completion, **late days do not apply to
 pair-programming exercises**.
@@ -282,12 +282,12 @@ The submission due date is indicated on the problem sheet and displayed in the
 <a href="./schedule_static.html">schedule</a>.  As you are working in groups of
 3-4 students for the lab exercises, the solution files you come up with in the
 group are submitted by each group member individually in her/his own private Git
-repository. Pair-programming submissions will be graded on:
+repository. Pair-programming submissions will be graded based on the following criteria:
 
 1. **Attendance:** your attendance will be recorded by the TF who leads the
    section. Joining the section at the beginning and then leaving 10-15 minutes
    later will not reward attendance credit.  If you need to leave because of
-   another appointment then it is expected that you communicate before hand and
+   another appointment then it is expected that you communicate beforehand and
    coordinate with your TF. Please see the <a
    href="./syllabus.html#attendance-policy">attendance policy</a> section below
    as well.  Your pair-programming session is determined at the beginning of the
@@ -298,7 +298,7 @@ repository. Pair-programming submissions will be graded on:
 2. **Completion:** pair-programming submissions should reveal effort that the
    student attempted to solve the tasks.  If you experience difficulties in a
    particular problem and you are not able to complete the task, please indicate
-   the issues you had in your code using comments and we will take that
+   the issues you had in your code using comments; the teaching staff will take that
    reasoning into account.  Handing in an empty skeleton (same as hand-out) does
    not meet the expected standard and will not award credit for the submission.
 
@@ -326,9 +326,7 @@ posts as well as creating posts.-->
 ### <a id="office-hours"></a><a class="anchor-link" href="#office-hours">Office Hours</a>
 
 The teaching staff holds weekly office hours. Office hour times and locations
-are listed on the class main page. Office hours provide you with an opportunity
-to review and discuss course materials as well as provide you with further
-guidance for your homework.
+are listed on the class main page. Office hours offer an opportunity to review course materials and receive additional guidance on your homework.
 
 > Please see the following file in the class `git` repository for the details:
 >
@@ -337,13 +335,11 @@ guidance for your homework.
 
 ## <a id="attendance-policy"></a><a class="anchor-link" href="#attendance-policy">Attendance Policy</a>
 
-Lectures and pair-programming sections are core parts of the class and therefore
-mandatory to attend.  
+Attendance at lectures and pair-programming sections is mandatory as they are core parts of the class.
 
 Pair-programming sections (labs) will be held on weekdays that we determine at
 the beginning of the class according to a best fit of the students' individual
-schedules for the term.  You are required to attend the labs at the assigned lab
-day.  Rescheduling of a lab to a different day due to an unforeseeable event
+schedules for the term.  You are required to attend the labs on the assigned day.  Rescheduling of a lab to a different day due to an unforeseeable event
 must be coordinated with the responsible TF by sending an email to
 [`cs107-staff@g.harvard.edu`](mailto:cs107-staff@g.harvard.edu).
 
@@ -381,8 +377,7 @@ sufficient.  Thank you.
 
 You are welcome to discuss the course material and homework with others in order
 to better understand it, but the work you turn in must be your own (with
-exception of the project where collaborative work is permitted). Any work that
-is not your own, without properly citing the original author(s), is considered
+exception of the project where collaborative work is permitted). Any work submitted as your own without properly citing the original author(s), is considered
 plagiarism. Failure to follow the academic integrity and dishonesty guidelines
 outlined in the [Harvard Student
 Handbook](https://handbook.college.harvard.edu/) will have an adverse effect on
