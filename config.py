@@ -20,7 +20,7 @@ MENUITEMS = [
     ('Project', 'pages/project.html'),
     ('Tutorials', 'pages/tutorials.html'),
     ('Resources', 'pages/resources.html'),
-    ('C/C++ Primer', 'pages/cpp_primer.html'),
+    #('C/C++ Primer', 'pages/cpp_primer.html'),
     # ('Topic index', 'pages/topic_index.html'),
 ]
 

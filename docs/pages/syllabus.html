@@ -107,9 +107,6 @@
         <li class="nav-item">
           <a class="nav-link" href="../pages/resources.html">Resources</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../pages/cpp_primer.html">C/C++ Primer</a>
-        </li>
         <form
           class="form-inline my-2"
           action="../search.html"
@@ -137,33 +134,34 @@
 </nav>
     <main id="content" class="container">
   <h1>Syllabus</h1>
-  <h2><a id="cobjective"></a><a class="anchor-link" href="#cobjective">Course Objective</a></h2>
+  <h2><span style="color:#ff0000">¡This is a draft 08-30-2023! </span></h2>
+<h2><a id="cobjective"></a><a class="anchor-link" href="#cobjective">Course Objective</a></h2>
 <p>The primary goal of this course is to teach you how to develop effective
 software for scientific applications. In order to achieve this goal, there are
 several non-negotiable topics that must be included in the course.  We will be
 concerned with two primary thrusts:  <em>System and Software Engineering</em> and
 <em>Language</em>.  Moreover, we aim to provide you with a suite of modern software
 development techniques and workflows.</p>
-<p>A short <code>pdf</code> version of the syllabus can be <a href="../pages/media/cs107_syllabus.pdf">downloaded
-here</a>.</p>
+<!--A short `pdf` version of the syllabus can be [downloaded
+here]({attach}/pages/media/cs107_syllabus.pdf).-->
+
 <h2><a id="lobjective"></a><a class="anchor-link" href="#lobjective">Learning Objective</a></h2>
 <p>After successful completion of this course, you will be able to:</p>
 <blockquote>
 <ul>
-<li>Use Python, including its advanced features to write scientific programs</li>
-<li>Have a basic idea how the Python interpreter works</li>
+<li>Use Python, including its advanced features to write scientific programs.</li>
+<li>Have a basic idea how the Python interpreter works.</li>
 <li>Understand what features of Python make up its language execution model and how these features impact
   the code you write: e.g. how modularity, abstraction, and encapsulation can
-  be used to solve problems</li>
+  be used to solve problems.</li>
 <li>Write programs with good software engineering practices.  These
   practices include: working on remote machines, version control, continuous
   integration, documentation and testing.</li>
 <li>Utilize data management techniques to store data, starting from a good
   understanding of data structures to databases.</li>
-<li>Combine these techniques together to write large pieces of software (you
-  will do a group project for this), working in a team of scientists,
-  programmers, etc.</li>
-<li>Evaluate and test software to see which one your group ought to use.</li>
+<li>Combine these techniques together to write large pieces of software working in a team.</li>
+<li>Develop pipelines to integrate data aquisition and processing.</li>
+<li>Evaluate and test software as part of the development process. </li>
 <li>Be able to contribute on both the science and software engineering sides of
   things.</li>
 </ul>
@@ -171,15 +169,15 @@ here</a>.</p>
 <h2><a id="prerequisites"></a><a class="anchor-link" href="#prerequisites">Prerequisites</a></h2>
 <p>You should have some basic familiarity with programming (functions, variables,
 constants, differences between integer and floating point, etc.) at the level of
-CS50. Some comfort with a tool to edit text files is beneficial.  Any text
+CS50. Some comfort with a tool to edit text files is beneficial. Any text
 editor or IDE will suit this purpose.</p>
-<p>The student should have passed a basic calculus class.  The project will require
-the use of the chain rule.  The lectures will review the necessary fundamentals
+<p>The student should have passed a basic calculus class. The lectures will review the necessary fundamentals
 required to succeed with the class project.</p>
 <p>Besides this, you should have interest or investment in scientific computing.</p>
-<p>You can download Homework 0 for self-assessment
-<a href="../pages/media/hw0.pdf">here</a> (not graded).  You do not need to be able
-to solve all problems in order to take this class.</p>
+<!--You can download Homework 0 for self-assessment
+[here]({attach}/pages/media/hw0.pdf) (not graded).  You do not need to be able
+to solve all problems in order to take this class.-->
+
 <h3><a id="prerequisites-jupyter"></a><a class="anchor-link" href="#prerequisites-jupyter">Jupyter Notebooks</a></h3>
 <p><a href="https://jupyter.org/">Jupyter</a> notebooks are great for code prototyping and
 learning how to use new features and APIs. However,
@@ -201,8 +199,8 @@ additional helpful material. </p>
 <h2><a id="course-format"></a><a class="anchor-link" href="#course-format">Course Format</a></h2>
 <p>The delivery of course content will occur via two weekly lectures as well as
 weekly pair-programming sections.  Attending these sessions is <strong>mandatory</strong>.
-Lectures will consist of considerable interaction and discussion and will be
-greatly enhanced by student participation.</p>
+   Lectures will consist of considerable interaction and discussion and will be
+   greatly enhanced by student participation.</p>
 <p>The course contains the following main components:</p>
 <ol>
 <li><strong>Lectures:</strong> Deliver the main content of the class.   <a
@@ -218,14 +216,15 @@ greatly enhanced by student participation.</p>
    to practice the methods learned in class on a real Python application.  The
    project topic is given by the teaching staff.</li>
 </ol>
-<p>The main programming language taught throughout the course is Python.  In
-addition, a voluntary <a href="../pages/cpp_primer.html"><code>C/C++</code> primer class</a> that
+<p>The main programming language taught throughout the course is Python.</p>
+<!--In addition, a voluntary [`C/C++` primer class]({filename}cpp_primer.md) that
 consists of 10 lectures will be held during the semester.  This primer is highly
 recommended if you like to strengthen your skills in a programming language that
 is closer to the hardware and widely used in research and industry.  If you plan
-on taking <a href="https://harvard-iacs.github.io/2022-CS205/">CS205</a> in the spring
-semester, please consider taking this primer as basic knowledge of <code>C/C++</code> will
-be required for that class.</p>
+on taking [CS205](https://harvard-iacs.github.io/2022-CS205/) in the spring
+semester, please consider taking this primer as basic knowledge of `C/C++` will
+be required for that class.-->
+
 <h3><a id="grading"></a><a class="anchor-link" href="#grading">Grading</a></h3>
 <blockquote>
 <p>The following weight table is used for individual components of the class. The
@@ -252,20 +251,19 @@ class does not have standard midterm or final exams.</p>
 </tr>
 <tr>
 <td><a href="#pp"><strong>Pair-programming</strong></a> (12 sections)</td>
-<td>10%</td>
-</tr>
-<tr>
-<td><a href="#contributions"><strong>Communal Contributions</strong></a></td>
-<td>5%</td>
+<td>15%</td>
 </tr>
 </tbody>
 </table>
 </blockquote>
+<!-- > | [**Pair-programming**](#pp) (12 sections)    | 10%          | -->
+<!-- > | [**Communal Contributions**](#contributions) | 5%           | -->
+
 <h3><a id="homework"></a><a class="anchor-link" href="#homework">Homework</a></h3>
 <p>There are <strong>7 homework assignments</strong> where each contributes equally to the final
 grade. The homework is focused on the topics discussed in class and involves
 programming and theoretical work.  The teaching staff is determined to return
-solutions and graded assignments with feedback shortly after the due date.  It
+solutions and graded assignments with feedback after the due date.  It
 is <em>your responsibility</em> to check the consistency between your graded work and
 the assignment solution.  You have the option to address possible
 inconsistencies in office hours or request a regrading for the assignment (see
@@ -362,13 +360,15 @@ minutes.  They are accessible on canvas within a 12 hour time window from 9am to
 9pm at the day of the quiz.</p>
 <blockquote>
 <p><strong>Note:</strong> if a quiz takes 25 minutes and you start the quiz on 8:50pm, you
-will have only 10 minutes to work on the quiz.</p>
-<ul>
-<li><strong>Quiz 1: September 22nd, 7:00pm - 7:45pm</strong>, Lecture 1 to 5</li>
-<li><strong>Quiz 2: October 13th, 9:00am - 9:00pm</strong>, Lecture 6 to 9 (no automatic differentiation)</li>
-<li><strong>Quiz 3: November 10th, 9:00am - 9:00pm</strong>, Lecture 10 to 16</li>
-<li><strong>Quiz 4: December 1st, 9:00am - 9:00pm</strong>, Lecture 17 to 24</li>
-</ul>
+will have only 10 minutes to work on the quiz.
+</p>
+</blockquote>
+<!-- > * **Quiz 1: September 22nd, 7:00pm - 7:45pm**, Lecture 1 to 5 -->
+<!-- > * **Quiz 1: September 22nd, 7:00am - 7:45pm**, Lecture 1 to 5 -->
+<!-- > * **Quiz 2: October 13th, 9:00am - 9:00pm**, Lecture 6 to 9  -->
+<!-- > * **Quiz 3: November 10th, 9:00am - 9:00pm**, Lecture 10 to 16 -->
+<!-- > * **Quiz 4: December 1st, 9:00am - 9:00pm**, Lecture 17 to 24 -->
+<blockquote>
 <p>Please see the class <a href="./schedule_static.html">schedule</a> as well.</p>
 </blockquote>
 <h3><a id="pp"></a><a class="anchor-link" href="#pp">Pair-Programming Sections</a></h3>
@@ -431,18 +431,20 @@ submissions:</p>
 <li><a href="./tutorials.html#tutorial-pp">Pair-programming workflow</a></li>
 </ul>
 </blockquote>
-<h3><a id="contributions"></a><a class="anchor-link" href="#contributions">Communal Contributions</a></h3>
-<p>The frequency with which you visit and/or post to the <a
+<!--### <a id="contributions"></a><a class="anchor-link" href="#contributions">Communal Contributions</a>
+
+The frequency with which you visit and/or post to the <a
 href="../#class-forum">class forum</a> can contribute to your final <a
 href="./syllabus.html#grading">grade</a>.  These contributions must have
 intellectual value and can be in the form of questions and/or answers related to
 class material.  Be mindful about sharing sensitive material such as solution
 code for homeworks.  If in doubt, try to rephrase your question/answer or ask
 the teaching staff via
-<a href="mailto:cs107-staff@g.harvard.edu"><code>cs107-staff@g.harvard.edu</code></a>
+[`cs107-staff@g.harvard.edu`](mailto:cs107-staff@g.harvard.edu)
 whether the content is permissible to share.  Factors that contribute are
 frequency of visits, posing questions, giving answers, commenting and liking
-posts as well as creating posts.</p>
+posts as well as creating posts.-->
+
 <h3><a id="office-hours"></a><a class="anchor-link" href="#office-hours">Office Hours</a></h3>
 <p>The teaching staff holds weekly office hours. Office hour times and locations
 are listed on the class main page. Office hours provide you with an opportunity
@@ -470,23 +472,26 @@ Code</a> and send an email to
 at least one day before the lecture or lab.  Lecture recordings are available
 only when students are excused for a lecture.</p>
 </blockquote>
-<h3><a id="attendance-policy-zoom"></a><a class="anchor-link" href="#attendance-policy-zoom">Zoom</a></h3>
-<p>Classes and labs will be streamed via zoom for you to attend real time while in
+<!--### <a id="attendance-policy-zoom"></a><a class="anchor-link" href="#attendance-policy-zoom">Zoom</a>
+
+Classes and labs will be streamed via zoom for you to attend real time while in
 isolation.  Note that attendance on zoom is not a substitute for in-person
 participation.  The main attention will be on the physical audience present
 (unless the entire class must be shifted to virtual meetings depending on
 Harvard COVID updates). Please follow the steps in the "Attendance Policy"
 section above to attend the zoom streams.  If you are isolating you must not
 send notifications for every lecture or lab, one notification to let us know is
-sufficient.  Thank you.</p>
-<blockquote>
-<p>Please see the <a href="../#important">important information</a> for the
-canvas page that contains the lecture zoom link.</p>
-<p>The zoom links for the lab sessions and office hours are given in the
-<code>lab_groups.xls</code> and <code>office_hours.xls</code> files in the main class <code>git</code>
-repository:</p>
-<p><a href="https://code.harvard.edu/CS107/main">https://code.harvard.edu/CS107/main</a></p>
-</blockquote>
+sufficient.  Thank you.
+
+> Please see the <a href="../#important">important information</a> for the
+> canvas page that contains the lecture zoom link.
+>
+> The zoom links for the lab sessions and office hours are given in the
+> `lab_groups.xls` and `office_hours.xls` files in the main class `git`
+> repository:
+>
+> <https://code.harvard.edu/CS107/main>-->
+
 <h2><a id="collaboration-policy"></a><a class="anchor-link" href="#collaboration-policy">Collaboration Policy</a></h2>
 <p>You are welcome to discuss the course material and homework with others in order
 to better understand it, but the work you turn in must be your own (with
@@ -499,6 +504,26 @@ your final grade. This includes the removal of copyright notices in code. You
 may not submit the same or similar work to this course that you have submitted
 or will submit to another without permission.  The teaching staff may use tools
 to compute correlations between submitted work.</p>
+<h2><a id="ai-models"></a><a class="anchor-link" href="#ai-models">Use of AI Models</a></h2>
+<p><strong>Purpose of Policy:</strong> This policy outlines the acceptable use of AI models, including but not limited to ChatGPT, in completing assignments for this course.</p>
+<p><strong>Policy Guidelines:</strong></p>
+<ol>
+<li>
+<p><strong>Original Work:</strong> Students are expected to complete assignments using their original thoughts and interpretations. AI models can be used to help understand concepts, generate ideas, or learn about different perspectives, but they should not write or complete assignments for students.</p>
+</li>
+<li>
+<p><strong>Collaboration with AI:</strong> Students may use AI models for brainstorming or generating preliminary ideas, but the final work submitted must be substantially their own. Students should be able to explain their reasoning, logic, and conclusions without relying on the model's output.</p>
+</li>
+<li>
+<p><strong>Restrictions for Specific Assignments:</strong> There may be specific assignments (e.g. quiz part of the midterms) or parts of the course where the use of AI models is entirely prohibited. These restrictions will be clearly stated in the assignment guidelines.</p>
+</li>
+<li>
+<p><strong>Ethical Considerations:</strong> Students are encouraged to approach the use of AI with ethical considerations in mind, including issues related to privacy, bias, and authenticity.</p>
+</li>
+</ol>
+<p><strong>Consequences for Non-Compliance:</strong> Failure to adhere to this policy may result in academic penalties as outlined in the course's academic integrity policy.</p>
+<p><strong>Questions and Clarifications:</strong> If students have questions about the appropriate use of AI models in an assignment, they should consult the course instructor or teaching assistants before proceeding.</p>
+<p>Please refer to the <a href="https://provost.harvard.edu/guidelines-using-chatgpt-and-other-generative-ai-tools-harvard">University's policy</a> for further information.</p>
 <h2><a id="accessibility"></a><a class="anchor-link" href="#accessibility">Accessibility</a></h2>
 <p>If you have a documented disability (physical or cognitive) that may impair your
 ability to complete assignments or otherwise participate in the course and

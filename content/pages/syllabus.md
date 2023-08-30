@@ -1,7 +1,7 @@
 Title: Syllabus
 Slug: syllabus
-Date: 2022-07-25
-
+Date: 2023-08-30
+## <span style="color:#ff0000">¡This is a draft 08-30-2023! </span>
 ## <a id="cobjective"></a><a class="anchor-link" href="#cobjective">Course Objective</a>
 
 The primary goal of this course is to teach you how to develop effective
@@ -11,30 +11,26 @@ concerned with two primary thrusts:  _System and Software Engineering_ and
 _Language_.  Moreover, we aim to provide you with a suite of modern software
 development techniques and workflows.
 
-A short `pdf` version of the syllabus can be [downloaded
-here]({attach}/pages/media/cs107_syllabus.pdf).
+<!--A short `pdf` version of the syllabus can be [downloaded
+here]({attach}/pages/media/cs107_syllabus.pdf).-->
 
 
 ## <a id="lobjective"></a><a class="anchor-link" href="#lobjective">Learning Objective</a>
 
 After successful completion of this course, you will be able to:
 
-> * Use Python, including its advanced features to write scientific programs
-> * Have a basic idea how the Python interpreter works
+> * Use Python, including its advanced features to write scientific programs.
+> * Have a basic idea how the Python interpreter works.
 > * Understand what features of Python make up its language execution model and how these features impact
 >   the code you write: e.g. how modularity, abstraction, and encapsulation can
->   be used to solve problems
+>   be used to solve problems.
 > * Write programs with good software engineering practices.  These
 >   practices include: working on remote machines, version control, continuous
 >   integration, documentation and testing.
 > * Utilize data management techniques to store data, starting from a good
 >   understanding of data structures to databases.
-> * Combine these techniques together to write large pieces of software (you
->   will do a group project for this), working in a team of scientists,
->   programmers, etc.
 > * Combine these techniques together to write large pieces of software working in a team.
 > * Develop pipelines to integrate data aquisition and processing.
-> * Evaluate and test software to see which one your group ought to use.
 > * Evaluate and test software as part of the development process. 
 > * Be able to contribute on both the science and software engineering sides of
 >   things.
@@ -52,9 +48,9 @@ required to succeed with the class project.
 
 Besides this, you should have interest or investment in scientific computing.
 
-You can download Homework 0 for self-assessment
+<!--You can download Homework 0 for self-assessment
 [here]({attach}/pages/media/hw0.pdf) (not graded).  You do not need to be able
-to solve all problems in order to take this class.
+to solve all problems in order to take this class.-->
 
 
 ### <a id="prerequisites-jupyter"></a><a class="anchor-link" href="#prerequisites-jupyter">Jupyter Notebooks</a>
@@ -102,14 +98,14 @@ weekly pair-programming sections.  Attending these sessions is **mandatory**.
    to practice the methods learned in class on a real Python application.  The
    project topic is given by the teaching staff.
 
-The main programming language taught throughout the course is Python.  In
-addition, a voluntary [`C/C++` primer class]({filename}cpp_primer.md) that
+The main programming language taught throughout the course is Python.
+<!--In addition, a voluntary [`C/C++` primer class]({filename}cpp_primer.md) that
 consists of 10 lectures will be held during the semester.  This primer is highly
 recommended if you like to strengthen your skills in a programming language that
 is closer to the hardware and widely used in research and industry.  If you plan
 on taking [CS205](https://harvard-iacs.github.io/2022-CS205/) in the spring
 semester, please consider taking this primer as basic knowledge of `C/C++` will
-be required for that class.
+be required for that class.-->
 
 
 ### <a id="grading"></a><a class="anchor-link" href="#grading">Grading</a>
@@ -242,10 +238,10 @@ minutes.  They are accessible on canvas within a 12 hour time window from 9am to
 > will have only 10 minutes to work on the quiz.
 >
 <!-- > * **Quiz 1: September 22nd, 7:00pm - 7:45pm**, Lecture 1 to 5 -->
-> * **Quiz 1: September 22nd, 7:00am - 7:45pm**, Lecture 1 to 5
-> * **Quiz 2: October 13th, 9:00am - 9:00pm**, Lecture 6 to 9 
-> * **Quiz 3: November 10th, 9:00am - 9:00pm**, Lecture 10 to 16
-> * **Quiz 4: December 1st, 9:00am - 9:00pm**, Lecture 17 to 24
+<!-- > * **Quiz 1: September 22nd, 7:00am - 7:45pm**, Lecture 1 to 5 -->
+<!-- > * **Quiz 2: October 13th, 9:00am - 9:00pm**, Lecture 6 to 9  -->
+<!-- > * **Quiz 3: November 10th, 9:00am - 9:00pm**, Lecture 10 to 16 -->
+<!-- > * **Quiz 4: December 1st, 9:00am - 9:00pm**, Lecture 17 to 24 -->
 >
 > Please see the class <a href="./schedule_static.html">schedule</a> as well.
 
@@ -358,7 +354,9 @@ must be coordinated with the responsible TF by sending an email to
 > only when students are excused for a lecture.
 
 
-### <a id="attendance-policy-zoom"></a><a class="anchor-link" href="#attendance-policy-zoom">Zoom</a>
+
+
+<!--### <a id="attendance-policy-zoom"></a><a class="anchor-link" href="#attendance-policy-zoom">Zoom</a>
 
 Classes and labs will be streamed via zoom for you to attend real time while in
 isolation.  Note that attendance on zoom is not a substitute for in-person
@@ -376,7 +374,7 @@ sufficient.  Thank you.
 > `lab_groups.xls` and `office_hours.xls` files in the main class `git`
 > repository:
 >
-> <https://code.harvard.edu/CS107/main>
+> <https://code.harvard.edu/CS107/main>-->
 
 
 ## <a id="collaboration-policy"></a><a class="anchor-link" href="#collaboration-policy">Collaboration Policy</a>
@@ -393,6 +391,24 @@ may not submit the same or similar work to this course that you have submitted
 or will submit to another without permission.  The teaching staff may use tools
 to compute correlations between submitted work.
 
+## <a id="ai-models"></a><a class="anchor-link" href="#ai-models">Use of AI Models</a>
+**Purpose of Policy:** This policy outlines the acceptable use of AI models, including but not limited to ChatGPT, in completing assignments for this course.
+
+**Policy Guidelines:**
+
+1. **Original Work:** Students are expected to complete assignments using their original thoughts and interpretations. AI models can be used to help understand concepts, generate ideas, or learn about different perspectives, but they should not write or complete assignments for students.
+
+2. **Collaboration with AI:** Students may use AI models for brainstorming or generating preliminary ideas, but the final work submitted must be substantially their own. Students should be able to explain their reasoning, logic, and conclusions without relying on the model's output.
+
+3. **Restrictions for Specific Assignments:** There may be specific assignments (e.g. quiz part of the midterms) or parts of the course where the use of AI models is entirely prohibited. These restrictions will be clearly stated in the assignment guidelines.
+
+4. **Ethical Considerations:** Students are encouraged to approach the use of AI with ethical considerations in mind, including issues related to privacy, bias, and authenticity.
+
+**Consequences for Non-Compliance:** Failure to adhere to this policy may result in academic penalties as outlined in the course's academic integrity policy.
+
+**Questions and Clarifications:** If students have questions about the appropriate use of AI models in an assignment, they should consult the course instructor or teaching assistants before proceeding.
+
+Please refer to the [University's policy](https://provost.harvard.edu/guidelines-using-chatgpt-and-other-generative-ai-tools-harvard) for further information.
 
 ## <a id="accessibility"></a><a class="anchor-link" href="#accessibility">Accessibility</a>
 

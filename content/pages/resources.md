@@ -75,9 +75,9 @@ No book is required. But we highly recommend two books for this course.
 
 * [Basic Computing Tools](https://missing.csail.mit.edu/)
 
-## Automatic Differentiation
+<!--## Automatic Differentiation
 
-* [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/optimization-2/)
+* [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/optimization-2/)-->
 
 ## <a id="windows"></a><a class="anchor-link" href="#windows">Windows Users</a>
 

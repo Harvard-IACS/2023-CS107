@@ -1,17 +1,1 @@
 ﻿Week,Dates,Tuesday Lecture,Thursday Lecture,Pair Programming,Homework,Project
-0,,,,,HW0: (8/16 - 9/8),
-1,9/2,,Lecture 0: Introduction,Pair Programming Wk1,HW1: (9/2 - 9/14),
-2,"9/7, 9/9",Lecture 1: Unix and Linux,Lecture 2: Unix / Bash Scripting,Pair Programming Wk2,,
-3,"9/14, 9/16",Lecture 3: Version Control / git,Lecture 4: git,Pair Programming Wk3,HW2: (9/14 - 9/28),
-4,"9/21, 9/23",Lecture 5: Python,Lecture 6: Python / OOP,Pair Programming Wk4,,M1A Due (9/23)
-5,"9/28, 9/30",Lecture 7:  OOP,Lecture 8:  OOP,Pair Programming Wk5,HW3: (9/28 - 10/12),
-6,"10/5, 10/7",Lecture 9:  AD Intro,Lecture 10:  AD Forward Mode,Pair Programming Wk6,,M1B Due (10/5)
-7,"10/12, 10/14",Lecture 11: AD Dual numbers / Operator overloading,Lecture 12: AD reverse mode / Applications,Pair Programming Wk7,HW4: (10/12 - 10/26),
-8,"10/19, 10/21",Lecture 13:  Containers I,Lecture 14: Documentation & Testing,Pair Programming Wk8,,M1 Peer Evals Due (10/21)
-9,"10/26, 10/28",Lecture 15:  Containers II,Lecture 16:  Datastructures (Linked lists and iterators),Pair Programming Wk9,HW5: (10/26 - 11/9),
-10,"11/2, 11/4",Lecture 17:  Datastructures (Trees (BST) & Heaps),Lecture 18: Generators and Coroutines,Pair Programming Wk10,,M2A Due (11/2)
-11,"11/9, 11/11",Lecture 19:  Python internals & memory,Lecture 20:  Databases,Pair Programming Wk11,HW6: (11/9 - 11/23),M2B Due (11/11)
-12,"11/16, 11/18",Lecture 21:  Databases,Lecture 22:  Databases,Pair Programming Wk12,,M2 Peer Evals Due (11/18)
-13,"11/23, 11/25",Lecture 23:  Performance,Thanksgiving Break,,HW7: (11/23 - 12/2),
-14,"11/30, 12/2",Lecture 24:  Project Work Day,Lecture 25:  Project Work Day,,,
-15,"12/7, 12/9",Reading Period,Final Exam Period,,,

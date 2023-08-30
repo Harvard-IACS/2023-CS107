@@ -1,6 +1,6 @@
 <!-- vim-markdown-toc GFM -->
 
-* [Systems Development for Computational Science [CS107, AC207] - Fall 2022](#systems-development-for-computational-science-cs107-ac207---fall-2022)
+* [Systems Development for Computational Science [CS107, AC207] - Fall 2023](#systems-development-for-computational-science-cs107-ac207---fall-2023)
     * [Lecture hours](#lecture-hours)
     * [Grade deadlines](#grade-deadlines)
     * [Pair Programming](#pair-programming)
@@ -9,7 +9,7 @@
 
 <!-- vim-markdown-toc -->
 
-# Systems Development for Computational Science [CS107, AC207] - Fall 2022
+# Systems Development for Computational Science [CS107, AC207] - Fall 2023
 
 This repository is **private** for the CS107/AC207 teaching staff only.
 
