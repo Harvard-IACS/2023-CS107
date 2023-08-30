@@ -48,9 +48,9 @@ required to succeed with the class project.
 
 Besides this, you should have interest or investment in scientific computing.
 
-<!--You can download Homework 0 for self-assessment
+You can download Homework 0 for self-assessment
 [here]({attach}/pages/media/hw0.pdf) (not graded).  You do not need to be able
-to solve all problems in order to take this class.-->
+to solve all problems in order to take this class.
 
 
 ### <a id="prerequisites-jupyter"></a><a class="anchor-link" href="#prerequisites-jupyter">Jupyter Notebooks</a>
