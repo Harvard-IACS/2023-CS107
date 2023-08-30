@@ -78,9 +78,8 @@ Staff Mailing List](./#staff-mailinglist) section below.
 <!-- > * **MD**: Maxwell-Dworkin, Cambridge -->
 <!-- > -->
 <!-- > Please see the following files in the class `git` repository for the details: -->
-<!-- > -->
-<!--> * **Office Hours:** <https://code.harvard.edu/CS107/main/blob/master/office_hours.xls>
-> * **Pair-programming:** <https://code.harvard.edu/CS107/main/blob/master/lab_groups.xls>-->
+<!-- * **Office Hours:** <https://code.harvard.edu/CS107/main/blob/master/office_hours.xls> --> 
+<!-- > * **Pair-programming:** <https://code.harvard.edu/CS107/main/blob/master/lab_groups.xls>--> 
 
 ## <a id="hours"></a><a class="anchor-link" href="#hours">Lecture Hours</a>
 
@@ -96,8 +95,8 @@ All lectures are of 75 minutes duration. Time is given in Eastern Standard Time
 <!-- > -->
 <!-- > **EXCEPTIONS:** -->
 <!-- > -->
-<!--> * Thursday 09/22: 2:15 - 3:30 PM, 114 Western 2111 + 2112 *(an additional zoom
->   route will be setup to SEC L2.224 to accommodate overflow in 114 Western)*-->
+<!-- > * Thursday 09/22: 2:15 - 3:30 PM, 114 Western 2111 + 2112 *(an additional zoom -->
+<!-- >   route will be setup to SEC L2.224 to accommodate overflow in 114 Western)*--> 
 
 
 ## <a id="important"></a><a class="anchor-link" href="#important">Important Information</a>
