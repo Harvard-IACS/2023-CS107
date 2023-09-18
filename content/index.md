@@ -1,5 +1,5 @@
 Title: Systems Development for Computational Science
-Date: 2022-07-22
+Date: 2023-09-18
 save_as: index.html
 
 ## <span style="color:#ff0000">¡This is a draft 08-30-2023! </span>
@@ -45,38 +45,37 @@ Staff Mailing List](./#staff-mailinglist) section below.
 
 ### <a id="instructor"></a><a class="anchor-link" href="#instructor">Instructor</a>
 
-* Ignacio Becker  (<iebecker@uc.cl>)
-* Office: Northwestern Av 150 
-* Office Hours:
-    - TBD
+* Ignacio Becker  (<iebecker@g.harvard.edu>)
+* Office: SEC, Office 1.312-05
+<!--* Office Hours:-->
+<!--     - TBD -->
 
 
 
 ### <a id="tf"></a><a class="anchor-link" href="#tf">Teaching Fellows</a>
 
-| Fellow                      | Email                          | Office Hours                         | Pair-Programming Sections |
-|:----------------------------|:-------------------------------|:-------------------------------------|:--------------------------|
-| TBD                         | TBD      | TBD          | TBD |
-<!--| Chenhui (Lucy) Li           | <chenhuili@g.harvard.edu>      | Fri 1:00-2:00pm (SEC 1.307)          | Fri 10:30-11:45am (SEC 1.307) |
-| Connor Capitolo             | <connorcapitolo@g.harvard.edu> | Wed 8:00-9:00am (SEC 1.316)          | Thu 8:00-9:15am (SEC 1.307)|
-| Geoffrey Liu                | <geoffreyliu@fas.harvard.edu>  | Mon 6:30-7:30pm (SEC 1.316)          | Mon 5:00-6:15pm (SEC 1.307)|
-| Haochen Yang                | <hcyang@fas.harvard.edu>       | Tue 5:00-6:00pm (SEC 1.316)<br>Fri 7:00-8:00pm (MD 323) | Tue 3:45-5:00pm (SEC LL2.224)<br>Thu 6:00-7:15pm (MD 119)|
-| Jean-Guillaume (JG) Brasier | <jbrasier@g.harvard.edu>       | Mon 2:30-3:30pm (MD 323)             | Mon 1:00-2:15pm (MD 323)|
-| Kimon Vogt                  | <kvogt@g.harvard.edu>          | Fri 5:00-6:00pm (MD 221)             | Fri 6:00-7:15pm (MD 221)|
-| Lars Ankile                 | <larsankile@g.harvard.edu>     | Wed 11:30-12:30pm (SEC 1.316)        | Thu 6:00-7:15pm (MD 119)|
-| Nutan Sahoo                 | <nutansahoo@hsph.harvard.edu>  | Thu 8:00-9:00am (SEC 1.316)         | Thu 9:15-10:30am (SEC 1.316)|
-| Renhao Luo                  | <renhao_luo@hms.harvard.edu>   | Thu 6:00-7:00pm (SEC 5.403)          | Tue 6:00-7:15pm (SEC 1.321)|
-| Shuheng Liu                 | <shuheng_liu@g.harvard.edu>    | Wed 10:45-11:45am (SEC 1.307)<br>Wed 6:15-7:15pm (SEC 1.316) | Wed 9:15-10:30am (SEC 1.307)<br>Wed 4:45-6:00pm (SEC 6.301/6.302)|
-| Wenqi Chen                  | <wenqichen@g.harvard.edu>      | Fri 6:00-7:00pm (MD 123)             | Wed 10:30-11:45am (MD 119)|
-| Xinhe Zhang                 | <xinhezhang@g.harvard.edu>     | Thu 4:00-5:00pm (SEC 5.403)          | Tue 3:45-5:00pm (SEC LL2.224)|
-| Xinran (Sherry) Tang        | <xinran_tang@g.harvard.edu>    | Tue 7:15-8:15pm (SEC 1.316)          | Tue 6:00-7:15pm (SEC 1.321)|
-| Xinyi Li                    | <xinyi_li@g.harvard.edu>       | Fri 9:30-10:30am (MD 221)            | Fri 8:00-9:15am (MD 221)|-->
+| Fellow                      | Email                            | Office Hours                        | Pair-Programming Sections         |
+|:----------------------------|:---------------------------------|:------------------------------------|:----------------------------------|
+| Kimon Vogt                  | <kvogt@g.harvard.edu>            | Mon 8:00-9:12am (Zoom)<br>Sat 8:00-10:00am (Zoom) | Mon 8:00-9:15am (Zoom)<br>Fri 8:00-9:15am (Zoom) |
+| Yixian Gan                  | <ygan@g.harvard.edu>             | Tue 5:00-6:00pm (SEC 6.301+6.302)   | Mon 6:00-7:15pm (SEC 6.301+6.302)  |
+| Allison Karp                | <akarp@mde.harvard.edu>          | Thu 9:30-10:30am (SEC 6.301,6.302)  | Tue 9:30-10:45am (SEC 6.301+6.302) |
+| Gekai Liao                  | <gekailiao@g.harvard.edu>        | Thu 4:00-5:00pm (MD PierceHall 100F)| Tue 3:45-5:00pm (SEC 6.301+6.302)  |
+| Victor Zhu                  | <dunminzhu@g.harvard.edu>        | Mon 10:00-11:00am (Zoom)            | Tue 7:00-8:15pm (Zoom)             |
+| Frank Cheng                 | <xcheng@g.harvard.edu>           | Fri 4:00-5:00pm (SEC 2.112+2.123)   | Wed 9:00-10:15am (SEC 2.122+2.123) |
+| Danni Lai                   | <danninglai@g.harvard.edu>       | Wed 4:00-5:00pm (Zoom)              | Wed 10:30-11:45pm (SEC 2.122+2.123)|
+| Isabella Bossa              | <isabellabossa@g.harvard.edu>    | Tue 4:00-5:00pm (MD 323)            | Thu 8:00-9:15am (MD 123)           |
+| Tanner Marsh                | <tam997@g.harvard.edu>           | Fri 10:00-11:00am (SEC 2.112)       | Thu 1:00-2:15pm (SEC 2.122+2.123)  |
+| Boxiang Wang                | <bwang@g.harvard.edu>            | Mon 1:00-2:00pm (SEC 6.301+6.302)   | Thu 3:45-5:00pm (SEC 4.405)        |
+| Shuheng Liu                 | <shuheng_liu@g.harvard.edu>      | Mon 7:00-8:00pm (Zoom)              | Thu 6:00-7:15pm (Zoom)             |
+| Cyrus Asgari                | <cyrusasgari@college.harvard.edu>| Wed 3:00-4:00pm (MD 123)            | Fri 12:00-1:15pm (SEC 2.122+2.123) |
+| Haitian Liu                 | <hliu3@g.harvard.edu>            | Fri 2:45-3:45pm (SEC 2.112+2.123)   | Fri 1:30-2:45pm (SEC 2.122+2.123)  |
 
 > Legend:
 >
-> * **SEC**: Science and Engineering Complex, Allston
-<!-- > * **MD**: Maxwell-Dworkin, Cambridge -->
-<!-- > -->
+> * **SEC**: Science and Engineering Complex, Northwestern Av 150, Allston
+> * **MD**: Maxwell-Dworkin, Cambridge
+>
+> Please see Pages section in Canvas for a Google Calendar. 
 <!-- > Please see the following files in the class `git` repository for the details: -->
 <!-- * **Office Hours:** <https://code.harvard.edu/CS107/main/blob/master/office_hours.xls> --> 
 <!-- > * **Pair-programming:** <https://code.harvard.edu/CS107/main/blob/master/lab_groups.xls>--> 
@@ -92,11 +91,6 @@ All lectures are of 75 minutes duration. Time is given in Eastern Standard Time
 > |--------------|----------------|-----------|
 > | **Tuesday**  | 2:15 - 3:30 PM | SEC 1.321 |
 > | **Thursday** | 2:15 - 3:30 PM | SEC 1.321 |
-<!-- > -->
-<!-- > **EXCEPTIONS:** -->
-<!-- > -->
-<!-- > * Thursday 09/22: 2:15 - 3:30 PM, 114 Western 2111 + 2112 *(an additional zoom -->
-<!-- >   route will be setup to SEC L2.224 to accommodate overflow in 114 Western)*--> 
 
 
 ## <a id="important"></a><a class="anchor-link" href="#important">Important Information</a>
