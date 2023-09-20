@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="  - Harvard University, Institute for Applied Computational Science. Milestone 2"
+    />
+    <meta name="author" content="" />
+<meta
+  name="keywords"
+  content=""
+/>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:300,400,700"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="../../style/tipuesearch/tipuesearch.css"
+    />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="../../style/images/favicon.ico"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="../../style/css/iacs.css" />
+
+    <title>Harvard CS107 / AC207 | Milestone 2</title>
+
+    <style>
+      .navbar {
+        background-color: #EFEFEF
+      }
+
+      .katex {
+        font: normal 1.21em KaTeX_Math, Times New Roman, serif !important;
+      }
+    </style>
+  </head>
+  <body>
+<nav class="navbar navbar-dark navbar-expand-md">
+  <div class="container">
+    <a class="navbar-brand" href="../..">
+      <img
+        class="navbar-brand-logo"
+        src="../../style/images/logo.png"
+      />
+      <h3 class="course-title">CS107 / AC207</h3>
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarsDefault"
+      aria-controls="navbarsDefault"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsDefault">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="../../pages/syllabus.html">Syllabus</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../pages/schedule_static.html">Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../pages/project.html">Project</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../pages/tutorials.html">Tutorials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../pages/resources.html">Resources</a>
+        </li>
+        <form
+          class="form-inline my-2"
+          action="../../search.html"
+          onsubmit="return validateForm(this.elements['q'].value);"
+        >
+          <div class="input-group input-group-sm">
+            <input
+              class="form-control"
+              type="text"
+              name="q"
+              placeholder="Search Topic"
+            />
+            <div class="input-group-append">
+              <button class="btn btn-default" type="submit">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </ul>
+    </div>
+    <!-- .collapse navbar-collapse -->
+  </div>
+  <!-- .container -->
+</nav>
+    <main id="content" class="container">
+ <h1>Milestone 2</h1>
+ <br />
+ <blockquote>
+<p><strong>Due: <span style="text-decoration: line-through;">Thursday</span> Tuesday, November <span style="text-decoration: line-through;">17th</span> 22nd, 11:59 PM</strong></p>
+</blockquote>
+<h2>Submission Instructions</h2>
+<p>You will be writing code for this milestone.  Please be sure that we can find it
+in your project organization. </p>
+<p>Your submission should be in the following format:</p>
+<div class="highlight"><pre><span></span><code>teamXX/
+├── docs
+│   ├── milestone1
+│   ├── milestone2
+│   └── milestone2_progress
+├── LICENSE
+├── README.md
+├── src
+│   └── ...
+└── ...
+</code></pre></div>
+
+<p>Note that <code>src</code> is a generic name used for source code directories.  You may
+choose a different name for the directory that holds your project source code.
+It should be a concise name.  Note also that the documentation for Milestone 2
+will be a superset of that for Milestone 1. Hence, it should be in a new file.</p>
+<h2>Requirements</h2>
+<p>Here are the main requirements for the second milestone:</p>
+<ol>
+<li>Working forward mode implementation<blockquote>
+<p><strong>Note</strong>: For this milestone, you are not required to support multiple
+functions of multiple inputs yet.  All tests run by the teaching staff will
+only be run on scalar functions of a single input.</p>
+</blockquote>
+</li>
+<li>Test suite</li>
+<li>Updated / extended documentation</li>
+<li>Proposal for additional feature(s)</li>
+</ol>
+<p><strong>See the sections below for more specific details.</strong></p>
+<h3>Working Forward Mode Implementation</h3>
+<p>You must have a working forward mode implementation.  This does not mean,
+however, that you should have a complete implementation. Guidelines are in the
+following sections. </p>
+<h4>Minimum Package Requirements</h4>
+<ul>
+<li>The software should be available for download from your GitHub organization.</li>
+<li>At this point, there is no need for you to release it on PyPI.  Use
+  <a href="https://test.pypi.org/">https://test.pypi.org/</a> for testing.</li>
+<li>You should provide a <code>pyproject.toml</code> or <code>requirements.txt</code> (depending on your
+  packaging choice) file with your software so other developers are able to
+  install the necessary dependencies.</li>
+<li>After a user installs your package, they should be able to use it without
+  difficulty.</li>
+</ul>
+<h4>Minimum Implementation Requirements</h4>
+<p>The following is a description of a typical use case.</p>
+<ul>
+<li>A user downloads your package from your organization (<code>pip</code> not required yet).</li>
+<li>They install the dependencies and run the tests. They create a "driver" script in the top level.</li>
+<li><strong>Note</strong>:  How they interact with your package will depend on your
+  implementation.  The interface and other implementation details should be
+  concisely described in your documentation.</li>
+<li>The next few steps may sound somewhat abstract, but that is only because they
+  hinge on your specific implementation.</li>
+<li>In the driver script, users import your package.</li>
+<li>Users instantiate an automatic differentiation object to be used in the forward
+  mode.</li>
+<li>They write a root-finding algorithm (e.g. Newton's method) that requires 
+  calculation of the Jacobian.</li>
+<li>They access the Jacobian via the automatic differentiation object.</li>
+<li><strong>Note</strong>: For this milestone, the Jacobian will just be a scalar. You are not
+  required to support multiple functions of multiple inputs yet
+  $(\mathbb{R}^m\mapsto\mathbb{R}^n)$. All tests run by the teaching staff will
+  only be run on scalar functions of a single input.</li>
+</ul>
+<p>There are other use cases as well. Someone may want to solve an optimization
+problem using the forward mode. Regardless, the workflow outlined above should
+be roughly the same.</p>
+<h4><a id="M2-functions"></a><a class="anchor-link" href="#M2-functions">What Kinds of Functions should be Implemented?</a></h4>
+<p>This document began by saying that you don't need to have the forward mode fully
+implemented. This section describes what that means.</p>
+<p>Recall that eventually a user should be able to use your software to get
+derivatives of a vector function of a vector
+$(\mathbb{R}^m\mapsto\mathbb{R}^n)$.  You should keep this in mind when
+designing your software.  For this milestone, however, the requirements are a
+little bit relaxed.  A typical user this time will just want to calculate
+derivatives of a scalar function of a scalar $(\mathbb{R}\mapsto\mathbb{R})$. At
+a minimum, your software should overload all the basic operations (addition,
+multiplication, subtraction, division, power).  Don't forget about the unary
+operations such as negation.  It should also contain the following elemental
+functions:</p>
+<ul>
+<li>exponential</li>
+<li>trig functions (sine, cosine, tangent)</li>
+</ul>
+<p>Feel free to go beyond the bare minimum. You'll have to do it eventually before
+the semester ends.</p>
+<h3>Test Suite</h3>
+<p>You should have a test suite that runs with <code>pytest</code>. Your test suite should run
+automatically through your CI setup you have initialized in milestone 1B. The
+project GitHub repo should contain a badge showing that your code is passing all
+of your tests.</p>
+<p>You should also have your code coverage workflow setup.  Your project repo
+should have a badge defined in the <code>README.md</code> file reporting a pass/fail of the
+test coverage based on the following criterion:</p>
+<blockquote>
+<p>Pass if the coverage satisfies 90% or more, fail otherwise. You can implement
+this behavior in your coverage workflow using shell commands or write a script
+that is being executed in the workflow.  When the criterion is met the script
+should return a success exit code such that the workflow succeeds.  Useful
+commands are <code>sed</code> and <code>awk</code>.  You will need to obtain the total coverage
+percentage by parsing an output file generated with <code>pytest</code> and the
+<code>pytest-cov</code> package and then process this information further to decide on
+the pass or fail criterion.  These steps must be done in your CI setup.</p>
+</blockquote>
+<p>You can use the <code>--cov-report</code> option from the <code>pytest-cov</code> plugin to generate a
+specific output format of your test coverage.</p>
+<p>See <a href="https://www.atlassian.com/continuous-delivery/software-testing/code-coverage">An introduction to code
+coverage</a>
+for a discussion on code coverage.</p>
+<h3>Documentation</h3>
+<p>Be sure to extend your documentation from Milestone 1. Now is a good time to
+think about the best way to distribute your documentation. You may want to
+consider using a Jupyter notebook with Markdown cells interspersed with code
+blocks for actual hands-on demos. The same thing can be achieved with a standard
+Markdown document, but it won't be as interactive.</p>
+<p>You will receive full points as long as you have a <code>docs/</code> folder and your
+documentation is complete. However, you may want to consider alternative ways of
+hosting your documentation. For example:  <a href="https://readthedocs.org/">Read the
+Docs</a> or
+<a href="https://docs.readthedocs.io/en/latest/intro/getting-started-with-sphinx.html">Sphinx</a>.</p>
+<h4>Documentation Sections</h4>
+<p>The teaching staff will use the documentation to run your package. They will
+implement a root-finding algorithm that requires first derivative information.
+<a href="./#M2-functions">See "What Kinds of Functions should be Implemented?" above</a> to
+get an idea of the types of elementary functions that could be used.</p>
+<p>The following sections should be present:</p>
+<ul>
+<li>Introduction  <ul>
+<li>Describe the problem the software solves and why it's important to solve
+  that problem. This can be the same as Milestone 1 with updates based on
+  comments from Milestone 1 grading. </li>
+</ul>
+</li>
+<li>Background  <ul>
+<li>This can be the same as in Milestone 1 unless you were asked to update it. </li>
+</ul>
+</li>
+<li>How to use your package  <ul>
+<li>How to install?  Even (especially) if the package isn't on <code>PyPI</code>, you
+  should walk them through the creation of a virtual environment or some
+  other kind of manual installation.  </li>
+<li>Include a basic demo for the user.  Come up with a simple function to
+  differentiate and walk the user through the steps needed to accomplish
+  that task.  </li>
+</ul>
+</li>
+<li>Software organization  <ul>
+<li>High-level overview of how the software is organized.  <ul>
+<li>Directory structure</li>
+<li>Basic modules and what they do</li>
+<li>Where do tests live?  How are they run?  How are they integrated? </li>
+<li>How can someone install your package?  At this point, it is okay if 
+  your package isn't on <code>PyPI</code>.  If it's not, then you should describe 
+  how someone can download and install your package manually.  </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Implementation details  <ul>
+<li>Description of current implementation.  This section goes deeper than the
+  high level software organization section.  <ul>
+<li>Try to think about the following:  <ul>
+<li>Core data structures</li>
+<li>Core classes</li>
+<li>Important attributes</li>
+<li>External dependencies </li>
+<li>Elementary functions  </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>This is similar to what you did for Milestone 1, but now you've actually
+  implemented it.</li>
+<li>What aspects have you not implemented yet?  What else do you plan on 
+  implementing?  </li>
+</ul>
+</li>
+</ul>
+<h3>Future Features</h3>
+<p>Now that you've got most of the hard implementation work done, what kinds of
+things do you want to implement next?  How will your software change?  What
+will be the primary challenges to implementing these new features?  Things you
+may want to consider here include (but are not limited to) any changes to the
+directory structure, and new modules, classes, data structures, etc.  Ideally
+these changes should be minimal.  Possible extensions (new feature) that you may
+consider are</p>
+<ul>
+<li>Reverse mode</li>
+<li>Optimization</li>
+<li>Sampling methods</li>
+<li>Higher-order derivatives</li>
+<li>Domain specific application (e.g. another project you are working on)</li>
+</ul>
+<p>We are checking for reasonable ideas here.  If you really can't come up with
+anything interesting, you should consult the lecture notes.  If you are still
+lost after that, please ask your TF or the instructor for help.  If you are
+unsure about the viability or difficulty of your proposed extension, please ask
+your TF or the instructor for their thoughts.  The extension should not be
+trivial and you should have given it sufficient thought that you can write
+something concrete about how to proceed.  Please be creative and have fun with
+it!</p>
+<!--
+### A Note on C++
+
+If you are doing a C++ project, you have two options for your final project. The
+first option is to write an AD library from scratch. You should follow the
+instructions outlined above to accomplish this. The second option is to add
+forward mode to an existing AD library. In this case, you should show the PR and
+Issue in the base code's repo and have a clear plan on how to address this
+issue. Make sure you contribute to the test suite and documentation. You should
+also be in touch with the developer community of that library. We want to see a
+clear plan of action. Even though you're not writing a library from scratch, you
+will still confront obstacles and technical hurdles that require a plan to
+navigate.
+-->
+
+<h2>Grading Breakdown</h2>
+<blockquote>
+<table>
+<thead>
+<tr>
+<th><strong>Points</strong></th>
+<th><strong>Task</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2</td>
+<td><code>milestone2</code> document setup, peer-evaluation form submitted</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Introduction and background</td>
+</tr>
+<tr>
+<td>3</td>
+<td>How to use</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Software Organization</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Implementation details</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Future Features</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Correct implementation of minimum requirements</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Adequate testing for minimum project requirements</td>
+</tr>
+<tr>
+<td>30</td>
+<td><strong>Total</strong></td>
+</tr>
+</tbody>
+</table>
+</blockquote>     </main>
+
+<footer class="footer">
+  <div class="container">
+    <span class="text-muted">Copyright 2022 &copy;
+      <a class="text-muted" href="https://iacs.seas.harvard.edu/">Institute for Applied Computational Science</a>
+    </span>
+  </div>
+</footer>     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

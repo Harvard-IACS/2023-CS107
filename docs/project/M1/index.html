@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="  - Harvard University, Institute for Applied Computational Science. Milestone 1"
+    />
+    <meta name="author" content="" />
+<meta
+  name="keywords"
+  content=""
+/>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:300,400,700"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="../../style/tipuesearch/tipuesearch.css"
+    />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="../../style/images/favicon.ico"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="../../style/css/iacs.css" />
+
+    <title>Harvard CS107 / AC207 | Milestone 1</title>
+
+    <style>
+      .navbar {
+        background-color: #EFEFEF
+      }
+
+      .katex {
+        font: normal 1.21em KaTeX_Math, Times New Roman, serif !important;
+      }
+    </style>
+  </head>
+  <body>
+<nav class="navbar navbar-dark navbar-expand-md">
+  <div class="container">
+    <a class="navbar-brand" href="../..">
+      <img
+        class="navbar-brand-logo"
+        src="../../style/images/logo.png"
+      />
+      <h3 class="course-title">CS107 / AC207</h3>
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarsDefault"
+      aria-controls="navbarsDefault"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsDefault">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="../../pages/syllabus.html">Syllabus</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../pages/schedule_static.html">Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../pages/project.html">Project</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../pages/tutorials.html">Tutorials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../pages/resources.html">Resources</a>
+        </li>
+        <form
+          class="form-inline my-2"
+          action="../../search.html"
+          onsubmit="return validateForm(this.elements['q'].value);"
+        >
+          <div class="input-group input-group-sm">
+            <input
+              class="form-control"
+              type="text"
+              name="q"
+              placeholder="Search Topic"
+            />
+            <div class="input-group-append">
+              <button class="btn btn-default" type="submit">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </ul>
+    </div>
+    <!-- .collapse navbar-collapse -->
+  </div>
+  <!-- .container -->
+</nav>
+    <main id="content" class="container">
+ <h1>Milestone 1</h1>
+ <br />
+ <blockquote>
+<p><strong>Due: Thursday, October 20th, 11:59 PM</strong></p>
+</blockquote>
+<p>You will now begin your final project to develop a Python package for automatic
+differentiation. Please get together with your project group and complete the
+tasks below for Milestone 1.</p>
+<!--Milestone 1 peer review google form: <https://forms.gle/24ZwLrm8rAMDBf4U9>
+-->
+
+<h2>Git Conventions</h2>
+<p>We expect all work from this point onward do be done on feature branches and
+merged into <code>master</code> or <code>main</code> via Pull Requests.</p>
+<p>Try to work with different branches and "approve" each others pull requests by
+reviewing their code and then merge into your default project branch.</p>
+<p><strong>You must work with your project Git repository.  The teaching staff will
+frequently check the history of your project.</strong></p>
+<h2>Steps to complete</h2>
+<ol>
+<li>Within your <code>docs</code> sub-directory, create a file called <code>milestone1</code>. The type
+   of file is up to you and your group. Two acceptable choices are markdown
+   (<code>milestone1.md</code>) or a Jupyter notebook (<code>milestone1.ipynb</code>).<ol>
+<li>Read the <code>Milestone1 Document</code> section below for what your <code>milestone1</code>
+    document should contain.</li>
+<li>Your <code>milestone1</code> document submission should be in the following format:</li>
+</ol>
+</li>
+</ol>
+<div class="highlight"><pre><span></span><code>teamXX/
+├── docs
+│   └── milestone1
+├── LICENSE
+├── README.md
+└── ...
+</code></pre></div>
+
+<p><strong>The teaching staff will only be able to give you a grade if you follow the
+exact structure just outlined!</strong></p>
+<h2>Milestone1 Document</h2>
+<p>You must clearly outline your software design for the project.  This is the main
+deliverable for this milestone.  Note that this is an <em>explicit</em> design approach
+(see comments on duck typing in lectures 7/8).  This is usually hard as you
+should know already how everything in your software should look like.  You will
+still be able to make changes later on but try to discuss these initial design
+approaches thoroughly in your group. We are checking to make sure you have a
+realizable software design, that you understand the scope of the project, and
+that you understand the details of the project.  Here are some sections your
+group should include in your document along with some prompts that you will want
+to address.</p>
+<h3>Introduction</h3>
+<p>Describe the problem the software solves and why it's important to solve that
+problem.</p>
+<h3>Background</h3>
+<p>Describe (briefly) the mathematical background and concepts as you see fit.  You
+<strong>do not</strong> need to give a treatise on automatic differentiation or dual numbers.
+Just give the essential ideas (e.g. the chain rule, the graph structure of
+calculations, elementary functions, etc).  Do not copy and paste any of the
+lecture notes.  We will easily be able to tell if you did this as it does not
+show that you truly understand the problem at hand.</p>
+<h3>How to Use <em>PackageName</em></h3>
+<p>How do you envision that a user will interact with your package?  What should
+they import?  How can they instantiate AD objects?</p>
+<blockquote>
+<p><strong>Note: This section should be a mix of pseudo code and text.  It should not
+include any actual operations yet.</strong>  Remember, you have not yet written any
+code at this point.</p>
+</blockquote>
+<h3>Software Organization</h3>
+<p>Discuss how you plan on organizing your software package.</p>
+<ul>
+<li>What will the directory structure look like?</li>
+<li>What modules do you plan on including?  What is their basic functionality?</li>
+<li>Where will your test suite live?</li>
+<li>How will you distribute your package (e.g. <code>PyPI</code> with PEP517/518 or simply
+  <code>setuptools</code>)?</li>
+<li>Other considerations?</li>
+</ul>
+<h3>Implementation</h3>
+<p>Discuss how you plan on implementing the forward mode of automatic
+differentiation (and think about later milestones where you need to propose an
+extension).</p>
+<ul>
+<li>What classes do you need and what will you implement first?</li>
+<li>What are the core data structures? How will you incorporate dual numbers?</li>
+<li>What method and name attributes will your classes have?</li>
+<li>Will you need some graph class to resemble the computational graph in forward
+  mode or maybe later for reverse mode?  Note that in milestone 2 you propose
+  an extension for your project, an example could be reverse mode.</li>
+<li>Think about how your basic operator overloading template should look like. How
+  will you deal with elementary functions like <code>sin</code>, <code>sqrt</code>, <code>log</code>, and <code>exp</code>
+  (and many others)?</li>
+<li>If you do not want to rule out reverse mode later on, think about your
+  operator overloading template might be improved as you will want to use dual
+  numbers for forward mode but you may need to be able to compute $\partial
+  v_j/\partial v_i$ when performing a forward pass for reverse mode.</li>
+<li>How do you want to handle cases for $f\colon\mathbb{R}^m\mapsto\mathbb{R}$ or
+  later $f\colon\mathbb{R}^m\mapsto\mathbb{R}^n$?  Would it make sense to design
+  a high-level function object to model arbitrary functions $f$?  You could
+  think further and possibly plan for a <code>grad()</code> method or similar in a class
+  that models $f$, since computing the gradient (or Jacobian) is an operation
+  that is often required.</li>
+<li>Do you want/need to depend on other libraries? (e.g. NumPy)</li>
+</ul>
+<p>Be sure to consider a variety of use cases.  For example, don't limit your
+design to scalar functions of scalar values.  Make sure you can handle the
+situations of vector functions of vectors and scalar functions of vectors.
+Don't forget that people will want to use your library in algorithms like
+Newton's method (among others).</p>
+<h3>Licensing</h3>
+<p>Licensing is an essential consideration when you create new software.  You
+should choose a suitable license for your project.  A comprehensive list of
+licenses can be found <a href="https://spdx.org/licenses/">here</a>.  The license you
+choose depends on factors such as what other software or libraries you use in
+your code (<a href="https://www.gnu.org/licenses/copyleft.html">copyleft</a>, copyright).
+will you have to deal with patents?  How can others advertise software that
+makes use of your code (or parts thereof)?  You may consult the following
+reading to aid you in choosing a license:</p>
+<ul>
+<li><a href="https://choosealicense.com/">Helper to choose a license</a></li>
+<li><a href="https://www.gnu.org/licenses/licenses.html">Licenses</a></li>
+<li><a href="https://www.gnu.org/licenses/license-recommendations.html">License recommendations</a></li>
+<li><a href="https://www.gnu.org/licenses/license-compatibility.html">License compatibility</a></li>
+<li><a href="https://spdx.org/licenses/">Extensive list of open source licenses</a></li>
+</ul>
+<p>Briefly motivate your license choice in the <code>milesone1</code> document and add a
+<code>LICENSE</code> file to the root of your project.</p>
+<h2>Document Length</h2>
+<p>Try to keep your report to a reasonable length.  It will form the core of your
+documentation, so you want it to be a length that someone will actually want to
+read.  Since some of you will use Markdown while others may use Jupyter
+notebooks and still other groups use
+<a href="https://en.wikipedia.org/wiki/LaTeX"> $\mathrm{\LaTeX}$ </a>, we cannot standardize
+a page length. Use your best judgment.  You will only lose points if your
+document is overly terse (e.g. you do not discuss aspects outlined above) or
+unbearably long (e.g. you provide so much information that it obscures the
+message).</p>
+<h2>Additional Comments</h2>
+<p>There is no need to have an implementation started for Milestone 1.  You are
+currently in the planning phase of your project. This means that you should feel
+free to have a <code>sanbox</code> branch (or similar) in your project repository for
+testing initial prototype designs and code.  The actual implementation of your
+package will start after Milestone 1.</p>
+<h2>Final Deliverables</h2>
+<ol>
+<li>The <code>docs/</code> directory should include a document called <code>milestone1</code> (the
+   extension is up to you, but <code>.md</code> or <code>.ipynb</code> are recommended.  Details on
+   how to create <code>milestone1</code> are provided in the <code>Milestone 1 Document</code> section
+   above.</li>
+<li>Proper licensing of your project</li>
+</ol>
+<h2>Grading breakdown</h2>
+<blockquote>
+<table>
+<thead>
+<tr>
+<th><strong>Points</strong></th>
+<th><strong>Task</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2</td>
+<td>Introduction</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Background</td>
+</tr>
+<tr>
+<td>3</td>
+<td>How to use</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Software Organization</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Implementation</td>
+</tr>
+<tr>
+<td>2</td>
+<td>License</td>
+</tr>
+<tr>
+<td>15</td>
+<td><strong>Total</strong></td>
+</tr>
+</tbody>
+</table>
+</blockquote>     </main>
+
+<footer class="footer">
+  <div class="container">
+    <span class="text-muted">Copyright 2022 &copy;
+      <a class="text-muted" href="https://iacs.seas.harvard.edu/">Institute for Applied Computational Science</a>
+    </span>
+  </div>
+</footer>     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
