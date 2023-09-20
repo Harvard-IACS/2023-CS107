@@ -1,7 +1,6 @@
 Title: CS107/AC207 Project
 Slug: project
 Date: 2023-08-30
-## <span style="color:#ff0000">¡This is a draft 08-30-2023! </span>
 
 ## <a id="project-overview"></a><a class="anchor-link" href="#project-overview">Project Overview</a>
 

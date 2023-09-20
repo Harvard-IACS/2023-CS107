@@ -1,7 +1,6 @@
 Title: Syllabus
 Slug: syllabus
 Date: 2023-08-30
-## <span style="color:#ff0000">¡This is a draft 08-30-2023! </span>
 ## <a id="cobjective"></a><a class="anchor-link" href="#cobjective">Course Objective</a>
 
 The primary goal of this course is to teach you how to develop effective

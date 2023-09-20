@@ -4,7 +4,7 @@ Date: 2022-07-26
 <!--
     vim: foldmethod=marker
 -->
-## <span style="color:#ff0000">¡This is a draft 08-30-2023! </span>
+
 * [How to Setup your Private Class Repository](#tutorial-repo)
     * [Steps to Setup Your Private Class Repository](#tutorial-repo-steps)
     * [Add an SSH Key to Your Account](#tutorial-repo-ssh)

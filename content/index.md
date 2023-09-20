@@ -2,7 +2,6 @@ Title: Systems Development for Computational Science
 Date: 2023-09-18
 save_as: index.html
 
-## <span style="color:#ff0000">¡This is a draft 08-30-2023! </span>
 Computation has emerged as the third pillar of science alongside the pillars of
 theory and experiment.  Computational science is maturing rapidly and has found
 considerable and significant use in supporting scientists from various
@@ -47,8 +46,8 @@ Staff Mailing List](./#staff-mailinglist) section below.
 
 * Ignacio Becker  (<iebecker@g.harvard.edu>)
 * Office: SEC, Office 1.312-05
-<!--* Office Hours:-->
-<!--     - TBD -->
+* Office Hours:
+    - Wed 5:00-6:00pm
 
 
 
