@@ -125,7 +125,7 @@ git clone git@code.harvard.edu:CS107/main.git
   > See the following tutorial to help you get started with your `git`
   > repository:
   >
-  > * <a href="./tutorials.html#tutorial-repo">How to setup your private class repository</a>
+  > * <a href="./pages/tutorials.html#tutorial-repo">How to setup your private class repository</a>
 
 ### <a id="class-forum"></a><a class="anchor-link" href="#class-forum">Class Discussion Forum</a>
 
