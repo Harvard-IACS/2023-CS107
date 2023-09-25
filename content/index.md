@@ -61,7 +61,7 @@ Staff Mailing List](./#staff-mailinglist) section below.
 | Gekai Liao                  | <gekailiao@g.harvard.edu>        | Thu 4:00-5:00pm (MD PierceHall 100F)| Tue 3:45-5:00pm (SEC 6.301+6.302)  |
 | Victor Zhu                  | <dunminzhu@g.harvard.edu>        | Mon 10:00-11:00am (Zoom)            | Thu 6:00-7:15pm (Zoom)             |
 | Frank Cheng                 | <xcheng@g.harvard.edu>           | Fri 4:00-5:00pm (SEC 2.112+2.123)   | Wed 9:00-10:15am (SEC 2.122+2.123) |
-| Danni Lai                   | <danninglai@g.harvard.edu>       | Wed 4:00-5:00pm (Zoom)              | Wed 10:30-11:45pm (SEC 2.122+2.123)|
+| Danni Lai                   | <danninglai@g.harvard.edu>       | Wed 4:00-5:00pm (Zoom)              | Wed 10:30-11:45am (SEC 2.122+2.123)|
 | Isabella Bossa              | <isabellabossa@g.harvard.edu>    | Tue 10:45-11:45am (MD 223)            | Thu 8:00-9:15am (MD 123)           |
 | Tanner Marsh                | <tam997@g.harvard.edu>           | Fri 10:00-11:00am (SEC 2.112)       | Thu 1:00-2:15pm (SEC 2.122+2.123)  |
 | Boxiang Wang                | <bwang@g.harvard.edu>            | Mon 1:00-2:00pm (SEC 6.301+6.302)   | Thu 3:45-5:00pm (SEC 4.405)        |
