@@ -60,14 +60,14 @@ Staff Mailing List](./#staff-mailinglist) section below.
 | Allison Karp                | <akarp@mde.harvard.edu>          | Thu 9:30-10:30am (SEC 6.301,6.302)  | Tue 9:30-10:45am (SEC 6.301+6.302) |
 | Gekai Liao                  | <gekailiao@g.harvard.edu>        | Thu 4:00-5:00pm (MD PierceHall 100F)| Tue 3:45-5:00pm (SEC 6.301+6.302)  |
 | Victor Zhu                  | <dunminzhu@g.harvard.edu>        | Mon 10:00-11:00am (Zoom)            | Thu 6:00-7:15pm (Zoom)             |
-| Frank Cheng                 | <xcheng@g.harvard.edu>           | Fri 4:00-5:00pm (SEC 2.112+2.123)   | Thu 1:00-2:15pm (SEC 2.122+2.123)  |
+| Frank Cheng                 | <xcheng@g.harvard.edu>           | Fri 4:00-5:00pm (SEC 2.122+2.123)   | Thu 1:00-2:15pm (SEC 2.122+2.123)  |
 | Danni Lai                   | <danninglai@g.harvard.edu>       | Wed 4:00-5:00pm (Zoom)              | Tue 7:00-8:15pm (Zoom)|
 | Isabella Bossa              | <isabellabossa@g.harvard.edu>    | Tue 10:45-11:45am (MD 223)          | Thu 8:00-9:15am (MD 123)           |
 | Tanner Marsh                | <tam997@g.harvard.edu>           | Fri 10:00-11:00am (SEC 2.112)       | Thu 1:00-2:15pm (SEC 2.122+2.123)  |
 | Boxiang Wang                | <bwang@g.harvard.edu>            | Mon 1:00-2:00pm (SEC 6.301+6.302)   | Thu 3:45-5:00pm (SEC 4.405)        |
 | Shuheng Liu                 | <shuheng_liu@g.harvard.edu>      | Mon 7:00-8:00pm (Zoom)              | Tue 7:00-8:15pm (Zoom)             |
 | Cyrus Asgari                | <cyrusasgari@college.harvard.edu>| Wed 3:00-4:00pm (MD 123)            | Fri 12:00-1:15pm (SEC 2.122+2.123) |
-| Haitian Liu                 | <hliu3@g.harvard.edu>            | Fri 2:45-3:45pm (SEC 2.112+2.123)   | Fri 1:30-2:45pm (SEC 2.122+2.123)  |
+| Haitian Liu                 | <hliu3@g.harvard.edu>            | Fri 2:45-3:45pm (SEC 2.122+2.123)   | Fri 1:30-2:45pm (SEC 2.122+2.123)  |
 
 > Legend:
 >
