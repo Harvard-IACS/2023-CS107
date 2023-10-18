@@ -232,7 +232,7 @@ repositories in your user account as you like.</p>
 setup an <a href="https://en.wikipedia.org/wiki/Secure_Shell">SSH</a> key.  Check if you
 already have the file <code>~/.ssh/id_rsa.pub</code> (assuming RSA).  If you do not have
 such a file you can create one with</p>
-<div class="highlight"><pre><span></span><code>ssh-keygen -t rsa -b <span class="m">4096</span>
+<div class="highlight"><pre><span></span><code>ssh-keygen<span class="w"> </span>-t<span class="w"> </span>rsa<span class="w"> </span>-b<span class="w"> </span><span class="m">4096</span>
 </code></pre></div>
 
 <p>Choose the default location by just hitting enter.  You may enter a password for
@@ -245,7 +245,7 @@ link <a href="https://code.harvard.edu/settings/keys">https://code.harvard.edu/s
 button in the top right corner and give your new key a title (e.g. the name of
 your laptop).  In the key field paste the contents of your <em>public key</em> found in
 <code>~/.ssh/id_rsa.pub</code>.  Use for example</p>
-<div class="highlight"><pre><span></span><code>cat ~/.ssh/id_rsa.pub
+<div class="highlight"><pre><span></span><code>cat<span class="w"> </span>~/.ssh/id_rsa.pub
 </code></pre></div>
 
 <p>and copy paste the output into the "Key" field on your GitHub page.  You are now
@@ -566,7 +566,7 @@ tolerated and are forwarded to the dean's office.</p>
 <span class="c1"># Listener   : Bob</span>
 <span class="c1"># Sharer     : Alice</span>
 
-<span class="nb">echo</span> <span class="s1">&#39;Hello World&#39;</span>
+<span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;Hello World&#39;</span>
 
 <span class="c1">### Main point of contention: whether to capitalize &quot;W&quot; in &quot;world&quot;</span>
 </code></pre></div>
@@ -622,7 +622,7 @@ container.</p>
   in the <code>lab</code> directory of your private Git repo and <code>pp1</code> exists.  Launch the
   docker container and mount the <code>pp1</code> directory in your repository:</li>
 </ul>
-<div class="highlight"><pre><span></span><code>$ run_cs107_docker.sh pp1/
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>run_cs107_docker.sh<span class="w"> </span>pp1/
 root@0a076feb425f:~#
 </code></pre></div>
 
@@ -631,17 +631,17 @@ root@0a076feb425f:~#
   <code>0a076feb425f</code> is arbitrary and yours will differ.
   Launch <code>tmate</code> (it is already installed in the container):</li>
 </ul>
-<div class="highlight"><pre><span></span><code>root@0a076feb425f:~# tmate
-Tip: <span class="k">if</span> you wish to use tmate only <span class="k">for</span> remote access, run: tmate -F
-To see the following messages again, run <span class="k">in</span> a tmate session: tmate show-messages
-Press &lt;q&gt; or &lt;ctrl-c&gt; to <span class="k">continue</span>
+<div class="highlight"><pre><span></span><code>root@0a076feb425f:~#<span class="w"> </span>tmate
+Tip:<span class="w"> </span><span class="k">if</span><span class="w"> </span>you<span class="w"> </span>wish<span class="w"> </span>to<span class="w"> </span>use<span class="w"> </span>tmate<span class="w"> </span>only<span class="w"> </span><span class="k">for</span><span class="w"> </span>remote<span class="w"> </span>access,<span class="w"> </span>run:<span class="w"> </span>tmate<span class="w"> </span>-F
+To<span class="w"> </span>see<span class="w"> </span>the<span class="w"> </span>following<span class="w"> </span>messages<span class="w"> </span>again,<span class="w"> </span>run<span class="w"> </span><span class="k">in</span><span class="w"> </span>a<span class="w"> </span>tmate<span class="w"> </span>session:<span class="w"> </span>tmate<span class="w"> </span>show-messages
+Press<span class="w"> </span>&lt;q&gt;<span class="w"> </span>or<span class="w"> </span>&lt;ctrl-c&gt;<span class="w"> </span>to<span class="w"> </span><span class="k">continue</span>
 ---------------------------------------------------------------------
-Connecting to ssh.tmate.io...
-Note: clear your terminal before sharing <span class="nb">readonly</span> access
-web session <span class="nb">read</span> only: https://tmate.io/t/ro-qNRV5QRVWkW3qr55sfATkBegr
-ssh session <span class="nb">read</span> only: ssh ro-qNRV5QRVWkW3qr55sfATkBegr@nyc1.tmate.io
-web session: https://tmate.io/t/nMWurZc7Q6Zbv8EnX2wdhf6GB
-ssh session: ssh nMWurZc7Q6Zbv8EnX2wdhf6GB@nyc1.tmate.io
+Connecting<span class="w"> </span>to<span class="w"> </span>ssh.tmate.io...
+Note:<span class="w"> </span>clear<span class="w"> </span>your<span class="w"> </span>terminal<span class="w"> </span>before<span class="w"> </span>sharing<span class="w"> </span><span class="nb">readonly</span><span class="w"> </span>access
+web<span class="w"> </span>session<span class="w"> </span><span class="nb">read</span><span class="w"> </span>only:<span class="w"> </span>https://tmate.io/t/ro-qNRV5QRVWkW3qr55sfATkBegr
+ssh<span class="w"> </span>session<span class="w"> </span><span class="nb">read</span><span class="w"> </span>only:<span class="w"> </span>ssh<span class="w"> </span>ro-qNRV5QRVWkW3qr55sfATkBegr@nyc1.tmate.io
+web<span class="w"> </span>session:<span class="w"> </span>https://tmate.io/t/nMWurZc7Q6Zbv8EnX2wdhf6GB
+ssh<span class="w"> </span>session:<span class="w"> </span>ssh<span class="w"> </span>nMWurZc7Q6Zbv8EnX2wdhf6GB@nyc1.tmate.io
 </code></pre></div>
 
 <ul>
@@ -659,7 +659,7 @@ ssh session: ssh nMWurZc7Q6Zbv8EnX2wdhf6GB@nyc1.tmate.io
   connected clients.<br>
   You can now work together on the exercise.  For example:</li>
 </ul>
-<div class="highlight"><pre><span></span><code>root@0a076feb425f:~# vim exercise_1.py
+<div class="highlight"><pre><span></span><code>root@0a076feb425f:~#<span class="w"> </span>vim<span class="w"> </span>exercise_1.py
 </code></pre></div>
 
 <ul>
@@ -675,13 +675,13 @@ the first place).</p>
 </blockquote>
 <p>In order to use <code>ssh</code> you need to setup an <code>ssh</code> key if you have not done so
 already.  If you do not have such a key, you may create one by running</p>
-<div class="highlight"><pre><span></span><code>ssh-keygen -t rsa -b <span class="m">4096</span>
+<div class="highlight"><pre><span></span><code>ssh-keygen<span class="w"> </span>-t<span class="w"> </span>rsa<span class="w"> </span>-b<span class="w"> </span><span class="m">4096</span>
 </code></pre></div>
 
 <p>If you are not dropped into a shell after you execute <code>tmate</code> it may be because
 you are using a shell different than <code>zsh</code>.  Install <code>zsh</code> on your system using
 your package manager and run <code>tmate</code> like this</p>
-<div class="highlight"><pre><span></span><code><span class="nv">SHELL</span><span class="o">=</span>/bin/zsh tmate
+<div class="highlight"><pre><span></span><code><span class="nv">SHELL</span><span class="o">=</span>/bin/zsh<span class="w"> </span>tmate
 </code></pre></div>
 
 <!-- 1}}} -->
