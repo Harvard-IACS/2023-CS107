@@ -60,32 +60,8 @@ All due events **with a given date are due on 21:59pm that day**.
         </ul>
     </td>
     <td style="background-color: rgba(101, 123, 131, 0.1);">
-        <!--<strong><em></em></strong>
-        <p
-        style="margin-top:0;margin-bottom:0;font-size:100%">
-        </p>
-        <div style="margin-top:2px">
-            <a href="https://code.harvard.edu/CS107/main/tree/master/lab/pp1" target="_blank">
-                <strong><em>PP1: <span style="font-size:100%">(2023-09-02)</span></em></strong>
-            </a>
-            <p style="margin-top:0;margin-bottom:0;font-size:100%">
-            Setup private class repository, <code>tmux</code>
-            </p>
-        </div>-->
     </td>
     <td style="background-color: rgba(101, 123, 131, 0.06);">
-        <!--<strong><em>Note:</em></strong>-->
-<!--        <p style="margin-top:0;margin-bottom:0;font-size:100%">
-            Handouts are typeset in <span
-            style="color:yellowgreen">green</span>
-            and deadlines in <span
-            style="color:tomato">red</span>.
-            All deadlines are due 11:59 pm.
-        </p>
-        <ol style="font-size:100%">
-            <li><span style="color:yellowgreen">HW1 deadline<br>(2023-09-27)</span></li>
-        </ol>
-    </td>-->
 </tr>
 
 
@@ -119,25 +95,15 @@ All due events **with a given date are due on 21:59pm that day**.
         style="margin-top:0;margin-bottom:0;font-size:100%">
         </p>
         <div style="margin-top:2px">
-            <a href="https://code.harvard.edu/CS107/main/tree/master/lab/pp2" target="_blank">
+            <a href="https://code.harvard.edu/CS107/main/tree/master/lab/pp1" target="_blank">
                 <strong><em>PP01: <span style="font-size:100%">(2023-09-12)</span></em></strong>
             </a>
             <p style="margin-top:0;margin-bottom:0;font-size:100%">
-            Setup private class repository, <code>tmate</code>
+            Setup private class repository, <code>tmate</code>.
             </p>
         </div>
     </td>
     <td style="background-color: rgba(101, 123, 131, 0.06);">
-        <!--<strong><em>Note:</em></strong>
-        <p style="margin-top:0;margin-bottom:0;font-size:100%">
-            Handouts are typeset in <span style="color:yellowgreen">green</span>
-            and deadlines in <span
-            style="color:tomato">red</span>.
-            All deadlines are due 11:59 pm.
-        </p>
-        <ol style="font-size:100%">
-            <li><span style="color:yellowgreen">HW1 deadline<br>(2023-09-27)</span></li>
-        </ol>-->
     </td>
 </tr>
 
@@ -170,11 +136,11 @@ All due events **with a given date are due on 21:59pm that day**.
         style="margin-top:0;margin-bottom:0;font-size:100%">
         </p>
         <div style="margin-top:2px">
-            <a href="https://code.harvard.edu/CS107/main/tree/master/lab/pp3" target="_blank">
+            <a href="https://code.harvard.edu/CS107/main/tree/master/lab/pp2" target="_blank">
                 <strong><em>PP02: <span style="font-size:100%">(2023-09-18)</span></em></strong>
             </a>
             <p style="margin-top:0;margin-bottom:0;font-size:100%">
-            Bash scripting, Git workflow
+            Bash scripting, Git workflow.
             </p>
         </div>
     </td>
@@ -193,18 +159,19 @@ All due events **with a given date are due on 21:59pm that day**.
         <em>2023-09-26</em>
         <br>
         <ul style="font-size:100%">
-            <li>TOPIC 1</li>
-            <li>TOPIC 2</li>
-            <li>TOPIC 3</li>
+            <li>OOP in Python</li>
+            <li>TClasses</li>
+            <li>Inheritance</li>
+            <li>Polymorphism</li>
         </ul>
     </td>
     <td><strong><em>Lecture 8:</em></strong>
         <em>2023-09-28</em>
         <br>
         <ul style="font-size:100%">
-            <li>TOPIC 1</li>
-            <li>TOPIC 2</li>
-            <li>TOPIC 3</li>
+            <li>Python data model</li>
+            <li>Dunder methods</li>
+            <li>Software licenses</li>
         </ul>
     </td>
     <td style="background-color: rgba(101, 123, 131, 0.1);">
@@ -213,21 +180,17 @@ All due events **with a given date are due on 21:59pm that day**.
         style="margin-top:0;margin-bottom:0;font-size:100%">
         </p>
         <div style="margin-top:2px">
-            <a href="https://code.harvard.edu/CS107/main/tree/master/lab/pp1" target="_blank">
+            <a href="https://code.harvard.edu/CS107/main/tree/master/lab/pp3" target="_blank">
                 <strong><em>PP03: <span style="font-size:100%">(2023-09-25)</span></em></strong>
             </a>
             <p style="margin-top:0;margin-bottom:0;font-size:100%">
-            Topics PP03
+            Git local branches, merge conflics and merge tool.
             </p>
         </div>
     </td>
     <td style="background-color: rgba(101, 123, 131, 0.06);">
         <strong><em>Note:</em></strong>
         <p style="margin-top:0;margin-bottom:0;font-size:100%">
-            <!--Handouts are typeset in <span style="color:yellowgreen">green</span>
-            and deadlines in <span
-            style="color:tomato">red</span>.
-            All deadlines are due 11:59 pm.-->
         </p>
         <ol style="font-size:100%">
             <li><span style="color:yellowgreen">HW1 deadline<br>(2023-09-27)</span></li>
@@ -243,14 +206,18 @@ All due events **with a given date are due on 21:59pm that day**.
         <em>2023-10-03</em>
         <br>
         <ul style="font-size:100%">
-            <!--<li>TOPIC 1</li>-->
+            <li>Classes and methods</li>
+            <li>Modules and packages</li>
+            <li>Python Package Index</li>
         </ul>
     </td>
     <td><strong><em>Lecture 10:</em></strong>
         <em>2023-10-05</em>
         <br>
         <ul style="font-size:100%">
-            <!--<li>TOPIC 1</li>-->
+            <li>Databases</li>
+            <li>SQL</li>
+            <li>SQLite</li>
         </ul>
     </td>
     <td style="background-color: rgba(101, 123, 131, 0.1);">
@@ -258,25 +225,21 @@ All due events **with a given date are due on 21:59pm that day**.
         <p
         style="margin-top:0;margin-bottom:0;font-size:100%">
         </p>
-        <!--<div style="margin-top:2px">
-            <a href="https://code.harvard.edu/CS107/main/tree/master/lab/pp1" target="_blank">
-                <strong><em>PP04: <span style="font-size:100%">(2023-09-25)</span></em></strong>
+        <div style="margin-top:2px">
+            <a href="https://code.harvard.edu/CS107/main/tree/master/lab/pp4" target="_blank">
+                <strong><em>PP04: <span style="font-size:100%">(2023-10-02)</span></em></strong>
             </a>
             <p style="margin-top:0;margin-bottom:0;font-size:100%">
-            Topics PP04
+            Python closure, fully connected neural networks.
             </p>
-        </div>-->
+        </div>
     </td>
     <td style="background-color: rgba(101, 123, 131, 0.06);">
         <!--<strong><em>Note:</em></strong>-->
         <p style="margin-top:0;margin-bottom:0;font-size:100%">
-            <!--Handouts are typeset in <span style="color:yellowgreen">green</span>
-            and deadlines in <span
-            style="color:tomato">red</span>.
-            All deadlines are due 11:59 pm.-->
         </p>
         <ol style="font-size:100%">
-            <!--<li><span style="color:yellowgreen">HW1 deadline<br>(2023-09-27)</span></li>-->
+            <li><span style="color:yellowgreen">PP03 deadline<br>(2023-10-06)</span></li>
         </ol> 
     </td>
 </tr>
@@ -288,14 +251,17 @@ All due events **with a given date are due on 21:59pm that day**.
         <em>2023-10-10</em>
         <br>
         <ul style="font-size:100%">
-            <!--<li>TOPIC 1</li>-->
+            <li>Databases: OLAP & OLTP</li>
+            <li>SQL: Joins</li>
         </ul>
     </td>
     <td><strong><em>Lecture 12:</em></strong>
         <em>2023-10-12</em>
         <br>
         <ul style="font-size:100%">
-            <!--<li>TOPIC 1</li>-->
+            <li>SQL Joins</li>
+            <li>Pipelines</li>
+            <li>Case Study</li>
         </ul>
     </td>
     <td style="background-color: rgba(101, 123, 131, 0.1);">
@@ -303,14 +269,14 @@ All due events **with a given date are due on 21:59pm that day**.
         <p
         style="margin-top:0;margin-bottom:0;font-size:100%">
         </p>
-        <!--<div style="margin-top:2px">
-            <a href="https://code.harvard.edu/CS107/main/tree/master/lab/pp1" target="_blank">
-                <strong><em>PP05: <span style="font-size:100%">(2023-09-25)</span></em></strong>
+        <div style="margin-top:2px">
+            <a href="https://code.harvard.edu/CS107/main/tree/master/lab/pp5" target="_blank">
+                <strong><em>PP05: <span style="font-size:100%">(2023-10-10)</span></em></strong>
             </a>
             <p style="margin-top:0;margin-bottom:0;font-size:100%">
-            Topics PP04
+            SQL and SQLite in Python.
             </p>
-        </div>-->
+        </div>
     </td>
     <td style="background-color: rgba(101, 123, 131, 0.06);">
         <!--<strong><em>Note:</em></strong>-->
@@ -321,7 +287,8 @@ All due events **with a given date are due on 21:59pm that day**.
             All deadlines are due 11:59 pm.-->
         </p>
         <ol style="font-size:100%">
-            <!--<li><span style="color:yellowgreen">HW1 deadline<br>(2023-09-27)</span></li>-->
+            <li><span style="color:yellowgreen">HW2 deadline<br>(2023-10-13)</span></li>
+            <li><span style="color:yellowgreen">PP04 deadline<br>(2023-10-13)</span></li>
         </ol> 
     </td>
 </tr>
@@ -332,14 +299,16 @@ All due events **with a given date are due on 21:59pm that day**.
         <em>2023-10-17</em>
         <br>
         <ul style="font-size:100%">
-            <!--<li>TOPIC 1</li>-->
+            <li>Pipelines</li>
+            <li>Software systems</li>
+            <li>Documentation</li>
         </ul>
     </td>
     <td><strong><em>Lecture 14:</em></strong>
         <em>2023-10-19</em>
         <br>
         <ul style="font-size:100%">
-            <!--<li>TOPIC 1</li>-->
+            <li>Testing</li>
         </ul>
     </td>
     <td style="background-color: rgba(101, 123, 131, 0.1);">
@@ -347,14 +316,14 @@ All due events **with a given date are due on 21:59pm that day**.
         <p
         style="margin-top:0;margin-bottom:0;font-size:100%">
         </p>
-        <!--<div style="margin-top:2px">
-            <a href="https://code.harvard.edu/CS107/main/tree/master/lab/pp1" target="_blank">
-                <strong><em>PP3: <span style="font-size:100%">(2023-09-25)</span></em></strong>
+        <div style="margin-top:2px">
+            <a href="https://code.harvard.edu/CS107/main/tree/master/lab/pp6" target="_blank">
+                <strong><em>PP06: <span style="font-size:100%">(2023-10-16)</span></em></strong>
             </a>
             <p style="margin-top:0;margin-bottom:0;font-size:100%">
-            Topics PP03
+            SQL and pipelines.
             </p>
-        </div>-->
+        </div>
     </td>
     <td style="background-color: rgba(101, 123, 131, 0.06);">
         <!--<strong><em>Note:</em></strong>-->
@@ -365,7 +334,7 @@ All due events **with a given date are due on 21:59pm that day**.
             All deadlines are due 11:59 pm.-->
         </p>
         <ol style="font-size:100%">
-            <!--<li><span style="color:yellowgreen">HW1 deadline<br>(2023-09-27)</span></li>-->
+            <li><span style="color:yellowgreen">PP05 deadline<br>(2023-10-20)</span></li>
         </ol> 
     </td>
 </tr>
@@ -409,7 +378,8 @@ All due events **with a given date are due on 21:59pm that day**.
             All deadlines are due 11:59 pm.-->
         </p>
         <ol style="font-size:100%">
-            <!--<li><span style="color:yellowgreen">HW1 deadline<br>(2023-09-27)</span></li>-->
+            <li><span style="color:yellowgreen">HW3 deadline<br>(2023-10-27)</span></li>
+            <li><span style="color:yellowgreen">PP06 deadline<br>(2023-10-27)</span></li>
         </ol> 
     </td>
 </tr>
@@ -453,7 +423,7 @@ All due events **with a given date are due on 21:59pm that day**.
             All deadlines are due 11:59 pm.-->
         </p>
         <ol style="font-size:100%">
-            <!--<li><span style="color:yellowgreen">HW1 deadline<br>(2023-09-27)</span></li>-->
+            <li><span style="color:yellowgreen">PP07 deadline<br>(2023-11-03)</span></li>
         </ol> 
     </td>
 </tr>
@@ -497,7 +467,7 @@ All due events **with a given date are due on 21:59pm that day**.
             All deadlines are due 11:59 pm.-->
         </p>
         <ol style="font-size:100%">
-            <!--<li><span style="color:yellowgreen">HW1 deadline<br>(2023-09-27)</span></li>-->
+            <li><span style="color:yellowgreen">PP08 deadline<br>(2023-11-10)</span></li>
         </ol> 
     </td>
 </tr>
@@ -542,7 +512,7 @@ All due events **with a given date are due on 21:59pm that day**.
             All deadlines are due 11:59 pm.-->
         </p>
         <ol style="font-size:100%">
-            <!--<li><span style="color:yellowgreen">HW1 deadline<br>(2023-09-27)</span></li>-->
+            <li><span style="color:yellowgreen">PP09 deadline<br>(2023-11-17)</span></li>
         </ol> 
     </td>
 </tr>
