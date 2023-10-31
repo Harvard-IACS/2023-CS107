@@ -345,14 +345,16 @@ All due events **with a given date are due on 21:59pm that day**.
         <em>2023-10-24</em>
         <br>
         <ul style="font-size:100%">
-            <!--<li>TOPIC 1</li>-->
+            <li>Testing revisited</li>
+            <li>Exeptions</li>
+            <li>Test coverage</li>
         </ul>
     </td>
     <td><strong><em>Lecture 16:</em></strong>
         <em>2023-10-26</em>
         <br>
         <ul style="font-size:100%">
-            <!--<li>TOPIC 1</li>-->
+            <li>Continuous integration</li>
         </ul>
     </td>
     <td style="background-color: rgba(101, 123, 131, 0.1);">
@@ -365,10 +367,10 @@ All due events **with a given date are due on 21:59pm that day**.
                 <strong><em>PP07: <span style="font-size:100%">(2023-10-23)</span></em></strong>
             </a>
             <p style="margin-top:0;margin-bottom:0;font-size:100%">
-            TBD
+            Documentation and testing
             </p>
         </div>
-    </td>
+    </td> 
     <td style="background-color: rgba(101, 123, 131, 0.06);">
         <!--<strong><em>Note:</em></strong>-->
         <p style="margin-top:0;margin-bottom:0;font-size:100%">
@@ -378,6 +380,7 @@ All due events **with a given date are due on 21:59pm that day**.
             All deadlines are due 11:59 pm.-->
         </p>
         <ol style="font-size:100%">
+            <li><span style="color:tomato">Quiz #2 deadline<br>(2023-10-25)</span></li>
             <li><span style="color:yellowgreen">HW3 deadline<br>(2023-10-27)</span></li>
             <li><span style="color:yellowgreen">PP06 deadline<br>(2023-10-27)</span></li>
         </ol> 
@@ -390,14 +393,19 @@ All due events **with a given date are due on 21:59pm that day**.
         <em>2023-10-31</em>
         <br>
         <ul style="font-size:100%">
-            <!--<li>TOPIC 1</li>-->
+            <li>Containers</li>
+            <li>Virtual environments</li>
+            <li>Docker</li>
         </ul>
     </td>
     <td><strong><em>Lecture 18:</em></strong>
         <em>2023-11-02</em>
         <br>
         <ul style="font-size:100%">
-            <!--<li>TOPIC 1</li>-->
+            <li>Data structures</li>
+            <li>Linked lists</li>
+            <li>Iterators</li>
+            <li>Binary Trees</li>
         </ul>
     </td>
     <td style="background-color: rgba(101, 123, 131, 0.1);">
@@ -410,7 +418,7 @@ All due events **with a given date are due on 21:59pm that day**.
                 <strong><em>PP08: <span style="font-size:100%">(2023-10-30)</span></em></strong>
             </a>
             <p style="margin-top:0;margin-bottom:0;font-size:100%">
-            TBD
+            Package deployment
             </p>
         </div>
     </td>
@@ -467,6 +475,7 @@ All due events **with a given date are due on 21:59pm that day**.
             All deadlines are due 11:59 pm.-->
         </p>
         <ol style="font-size:100%">
+            <li><span style="color:yellowgreen">HW4 deadline<br>(2023-11-10)</span></li>
             <li><span style="color:yellowgreen">PP08 deadline<br>(2023-11-10)</span></li>
         </ol> 
     </td>
