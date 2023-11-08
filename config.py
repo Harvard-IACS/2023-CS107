@@ -15,13 +15,13 @@ COLOR = '#EFEFEF'
 # Define Navbar links
 # ex. ('Link Name', 'URL')
 MENUITEMS = [
-    ('Syllabus', 'pages/syllabus.html'),
-    ('Schedule', 'pages/schedule_static.html'),
-    ('Project', 'pages/project.html'),
-    ('Tutorials', 'pages/tutorials.html'),
-    ('Resources', 'pages/resources.html'),
+   ('Syllabus', 'pages/syllabus.html'),
+   ('Schedule', 'pages/schedule_static.html'),
+   ('Project', 'pages/project.html'),
+   ('Tutorials', 'pages/tutorials.html'),
+   ('Resources', 'pages/resources.html'),
     #('C/C++ Primer', 'pages/cpp_primer.html'),
-    # ('Topic index', 'pages/topic_index.html'),
+    #('Topic index', 'pages/topic_index.html'),
 ]
 
 # Uncomment following line if you want document-relative URLs when developing

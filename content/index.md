@@ -20,22 +20,6 @@ in the context of good software engineering practices.
 
 <a href="./pages/syllabus.html">The class syllabus can be found by following this link.</a>
 
-<!--## <a id="updates"></a><a class="anchor-link" href="#updates" style="color:#ffa500">Updates</a>
-
-* **2022-08-31:** Lab sections for pair-programming will be selected in
-  [my.harvard](https://my.harvard.edu/).  You can prefer multiple depending on
-  your schedule and will be assigned one of your preferences eventually.  They
-  will become available shortly.  *Deadline for submission is Tuesday September
-  6th.*
-* **2022-08-26:** The C/C++ primer repository has been moved to
-  [https://code.harvard.edu/faw093/c_cpp_primer](https://code.harvard.edu/faw093/c_cpp_primer).
-  Please update your local remote if you have already clone it.
-* **2022-08-16:** IACS orientation [slides]({attach}/pages/media/iacs_orientation2022.pdf)
-* **2022-08-08:** Registration period office hour: Thursday, August 18th 10:00am - 11:00am on [zoom](https://harvard.zoom.us/my/fabianw)
-* **2022-08-06:** Published [Homework 0]({attach}/pages/media/hw0.pdf) (not graded)
-* **2022-07-22:** Registration for [`C/C++` primer]({filename}pages/cpp_primer.md) **is open**-->
-
-
 ## <a id="staff"></a><a class="anchor-link" href="#staff">Teaching Staff</a>
 
 The preferred way to reach the teaching staff is described in the [Teaching
@@ -75,9 +59,6 @@ Staff Mailing List](./#staff-mailinglist) section below.
 > * **MD**: Maxwell-Dworkin, Cambridge
 >
 > Please see Pages section in Canvas for a Google Calendar. 
-<!-- > Please see the following files in the class `git` repository for the details: -->
-<!-- * **Office Hours:** <https://code.harvard.edu/CS107/main/blob/master/office_hours.xls> --> 
-<!-- > * **Pair-programming:** <https://code.harvard.edu/CS107/main/blob/master/lab_groups.xls>--> 
 
 ## <a id="hours"></a><a class="anchor-link" href="#hours">Lecture Hours</a>
 

@@ -118,8 +118,6 @@ be required for that class.-->
 > | [**Project**](#project)                      | 35%          |
 > | [**Quizzes**](#quizzes)  (4 Quizzes)         | 15%          |
 > | [**Pair-programming**](#pp) (12 sections)    | 15%          |
-<!-- > | [**Pair-programming**](#pp) (12 sections)    | 10%          | -->
-<!-- > | [**Communal Contributions**](#contributions) | 5%           | -->
 
 
 ### <a id="homework"></a><a class="anchor-link" href="#homework">Homework</a>

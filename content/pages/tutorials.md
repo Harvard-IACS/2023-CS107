@@ -27,7 +27,7 @@ Date: 2022-07-26
 > repository hosted in the CS107 organization at
 > <https://code.harvard.edu/CS107>. (The class project will be hosted in another
 > repository in the same organization, see [Milestone
-> 1A]({filename}/project/milestone1A/index.md) for this separate task.)
+> 1]({filename}/project/milestone1/index.md) for this separate task.)
 
 This tutorial walks you through the steps to create your private class
 repository.  If you have already created `git` repositories on GitHub, then

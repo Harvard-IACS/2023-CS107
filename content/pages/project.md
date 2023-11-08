@@ -1,48 +1,43 @@
 Title: CS107/AC207 Project
 Slug: project
-Date: 2023-08-30
+Date: 2023-11-08
 
 ## <a id="project-overview"></a><a class="anchor-link" href="#project-overview">Project Overview</a>
 
 ### <a id="project-goal"></a><a class="anchor-link" href="#project-goal">Goal</a>
 
-You will develop a software library for a client (the teaching staff).  The
+<!--You will develop a software library for a client (the teaching staff).  The
 development of this library will leverage modern software development practices
 covered in the course.  By the end of the semester, the client should be able to
-easily install and run your package.
+easily install and run your package.-->
+
+You will develop a software library for a client, the teaching staff. The development of this library will leverage modern software development practices covered in the course. By the end of the semester, the client should be able to easily install and run your package.
 
 ### <a id="project-topic"></a><a class="anchor-link" href="#project-topic">Topic</a>
 
-TBD
-<!--The project topic is **automatic differentiation** (AD).  AD is a very broad
-area spanning computer science and mathematics with applications in fields
-across science and engineering.  We will only briefly graze the surface of this
-fascinating technique; indeed, AD is broad enough that it could form an entire
-course in its own right.  Even so, your final project is to write a `python`
-automatic differentiation library.  Your library is not required to contain all
-aspects of AD; that would simply be too much for a single semester.  However,
-your library should meet the basic project expectations outlined in the
-following sections.-->
+<!--The project topic is **spectral analysis**, which consists on the anaysis of data obtained from publicly available data that is currently used by professional astronomers to perform state-of-the-art research.
+Moreover, spectral data appears in many fields of science and engineering and you are bound to face it in your professional careers.
+Your final project is to write a `python` library. Your library is not required to have every module  implemented; that would simply be too much for a single semester.  However, your library should meet the basic project expectations outlined in the SRS.-->
 
+The project topic is **spectral analysis**, which consists of the analysis of data obtained from publicly available sources currently used by professional astronomers to perform state-of-the-art research. Moreover, spectral data appears in many fields of science and engineering, and you are likely to encounter it in your professional careers. Your final project is to write a Python library. Your library is not required to have every module implemented; that would simply be too much for a single semester. However, your library should meet the basic project expectations outlined in the Software Requirements Specification (SRS).
 
 ### <a id="project-milestones"></a><a class="anchor-link" href="#project-milestones">Project Milestones</a>
-TBD
 
-<!-- > The following weight table is used for individual milestones of the project. The -->
-<!-- > individual milestones make up the final project grade listed under the -->
-<!-- >  <a href="./syllabus.html#grading">Grading</a> section in the syllabus. -->
-<!-- > **The due date for the final milestone is December 10th 2022, 11:59 PM.** -->
-<!-- > -->
-<!-- > | Milestone                                                     | Due                           | Total Points | -->
-<!-- > |---------------------------------------------------------------|-------------------------------|--------------| -->
-<!-- > | [Milestone 1A]({filename}/project/milestone1A/index.md)       | Thu, September 22nd, 11:59 PM | 2            | -->
-<!-- > | [Milestone 1B]({filename}/project/milestone1B/index.md)       | Tue, October 4th, 11:59 PM    | 3            | -->
-<!-- > | [Milestone 1]({filename}/project/milestone1/index.md)         | Thu, October 20th, 11:59 PM   | 15           | -->
-<!-- > | [Milestone 2A]({filename}/project/milestone2A/index.md)       | Tue, November 1st, 11:59 PM   | 2            | -->
-<!-- > | [Milestone 2B]({filename}/project/milestone2B/index.md)       | Thu, November 10th, 11:59 PM  | 2            | -->
-<!-- > | [Milestone 2]({filename}/project/milestone2/index.md)         | <span style="text-decoration: line-through;">Thu</span> Tue, November <span style="text-decoration: line-through;">17th</span> 22nd, 11:59 PM  | 30           | -->
-<!-- > | [Final Milestone]({filename}/project/milestoneFinal/index.md) | Sat, December 10th, 11:59 PM  | 104          | -->
-<!-- > | **Total**                                                     |                               | 158          | -->
+
+>The following weight table is used for individual milestones of the project. The individual milestones make up the final project grade listed under the <a href="./syllabus.html#grading">Grading</a> section in the syllabus. Additional milestones will be included in the near future.
+>**The due date for the final milestone is December 14th 2022, 09:59 PM.**
+>
+>| Milestone                                                     | Due                           | Total Points |
+>|---------------------------------------------------------------|-------------------------------|--------------|
+>| [Milestone 1]({filename}/project/milestone1/index.md)       | Thu, November 9th, 09:59 PM | 2         |
+>| [Milestone 2]({filename}/project/milestone2/index.md)       | Fri, November 10th, 09:59 PM     | 7    |
+>| [Milestone 3]({filename}/project/milestone3/index.md)         | Tue, November 14th, 09:59 PM    | 14           |
+>| **Total**                                                     |                               |     23 |
+<!-- >| [Milestone 4]({filename}/project/milestone4/index.md)       |     | 2            | -->
+<!-- >| [Milestone 5]({filename}/project/milestone5/index.md)       |    | 2            | -->
+<!-- >| [Milestone 6]({filename}/project/milestone6/index.md)         |      | 30           | -->
+<!-- >| [Final Milestone]({filename}/project/milestoneFinal/index.md) | Fri, December 14th, 09:59 PM  |       | -->
+
 
 
 ### <a id="project-groups"></a><a class="anchor-link" href="#project-groups">Groups</a>
@@ -52,20 +47,18 @@ partners but groups sizes must consist of the number of students mentioned
 before.  Some members of the group will be stronger than others.  It is expected
 that you *work together* and help each other as needed.  This is an opportunity
 for less experienced coders to improve their skills by working with more
-experienced coders.  Every person must contribute.
+experienced coders. **Every person must contribute.**
 
 
 ## <a id="project-expectations"></a><a class="anchor-link" href="#project-expectations">Expectations</a>
 
-This project has a few non-negotiable expectations, which are outlined in
-**basic expectations**.  The project also has a more open-ended component, which
-is described in **additional expectations**.
-
+<!--This project has a few non-negotiable expectations, which are outlined in **basic expectations** and in Annex A of the Contract. The project also has additional components, which are described in **additional expectations** and in Annex B of the Contract.-->
+This project encompasses several mandatory requirements, detailed under **basic expectations** and within Annex A of the Contract. Furthermore, the project includes supplementary elements, specified under **additional expectations** and delineated in Annex B of the Contract.
 
 ### <a id="project-requirements"></a><a class="anchor-link" href="#project-requirements">Basic Expectations</a>
 
-<!--- Python library that can be used for automatic differentiation with a working
-  forward mode implementation.-->
+- Python library that can be used for astronomical spectral analysis.
+- The library must comply with the API described the Contract.
 - The client should be able to easily install the library, run the tests, access
   the documentation, and use the library for their application.
 - Documentation for every subsystem in the project must be provided.
@@ -74,38 +67,19 @@ is described in **additional expectations**.
   an installation guide which will help us install and test your system.
 - The project must utilize a proper packaging system for distribution and
   installation of the library.
-- The project must ship with a test suite.  Documentation on how to run the
-  tests is mandatory.
+- The project must ship with a test suite.  Documentation on how to run the tests is mandatory.
 
 
 ### <a id="project-additional"></a><a class="anchor-link" href="#project-additional">Additional Expectations</a>
-TBD
-<!--AD is extremely versatile. It finds applications in optimization, machine
-learning, and numerical methods (e.g. time integration, root-finding). There are
-also many different ways of implementing an AD package. In addition to the basic
-requirements of writing a forward mode AD library, you must also extend your
-package in some way. There are many options here and the teaching staff will
-have to approve your proposed extension. Here are a few general ideas (you will
-need to specialize them):
 
-* Implement reverse mode
-* Implement a mixed mode
-* Implement back propagation
-* Write an application that uses your AD library
-     - Implicit time-integrator
-     - Optimization
-     - Root-finder
-* Option for higher-order derivatives (Hessians and beyond)
+In addition to the basic requirements of the library, you must also extend your package with at least two additional modules. 
 
-**Note**:  If you elect to write an application that uses your AD library, then
-you must speak to the teaching staff first. There are certain instances where it
-might make sense to package your application together with your AD library (e.g.
-`pytorch`). However, it may be a better idea to keep the two libraries separate.
-In such a case, the teaching staff will need to approve your proposed extension
-and assess its efficacy.
+* Cross-Matching
+* Machine Learning
+* Interactive Visualization
+* Spectral Feature Extraction
 
-You are more than welcome to pitch your own idea.-->
-
+You are more than welcome to pitch your own idea, which must be approved by the Teaching Staff.
 
 ### <a id="project-impact"></a><a class="anchor-link" href="#project-impact">Broader Impact</a>
 
