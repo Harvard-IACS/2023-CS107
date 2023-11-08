@@ -160,7 +160,7 @@ All due events **with a given date are due on 09:59pm that day**.
         <br>
         <ul style="font-size:100%">
             <li>OOP in Python</li>
-            <li>TClasses</li>
+            <li>Classes</li>
             <li>Inheritance</li>
             <li>Polymorphism</li>
         </ul>
@@ -450,7 +450,6 @@ All due events **with a given date are due on 09:59pm that day**.
         <em>2023-11-09</em>
         <br>
         <ul style="font-size:100%">
-            <li>Heaps</li>
             <li>Heaps</li>
         </ul>
     </td>
