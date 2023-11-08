@@ -13,7 +13,7 @@ Date: 2023-07-30
 <!-- Use this command: :%s/font-size:[0-9]\+%/font-size:100%/g -->
 
 <!-- Due events are indicated in <span style="color:tomato">red</span> in the column on the right. -->
-All due events **with a given date are due on 21:59pm that day**.
+All due events **with a given date are due on 09:59pm that day**.
 
 <!-- Syllabus page 1 {{{2 -->
 <table style="width:100%;font-size:100%">
@@ -405,7 +405,6 @@ All due events **with a given date are due on 21:59pm that day**.
             <li>Data structures</li>
             <li>Linked lists</li>
             <li>Iterators</li>
-            <li>Binary Trees</li>
         </ul>
     </td>
     <td style="background-color: rgba(101, 123, 131, 0.1);">
@@ -442,14 +441,17 @@ All due events **with a given date are due on 21:59pm that day**.
         <em>2023-11-07</em>
         <br>
         <ul style="font-size:100%">
-            <!--<li>TOPIC 1</li>-->
+            <li>Binary search trees</li>
+            <li>Tree traversal</li>
+            <li>Priority queues </li>
         </ul>
     </td>
     <td><strong><em>Lecture 20:</em></strong>
         <em>2023-11-09</em>
         <br>
         <ul style="font-size:100%">
-            <!--<li>TOPIC 1</li>-->
+            <li>Heaps</li>
+            <li>Heaps</li>
         </ul>
     </td>
     <td style="background-color: rgba(101, 123, 131, 0.1);">
@@ -462,7 +464,7 @@ All due events **with a given date are due on 21:59pm that day**.
                 <strong><em>PP09: <span style="font-size:100%">(2023-11-06)</span></em></strong>
             </a>
             <p style="margin-top:0;margin-bottom:0;font-size:100%">
-            TBD
+            BST, Docker images
             </p>
         </div>
     </td>
@@ -488,14 +490,16 @@ All due events **with a given date are due on 21:59pm that day**.
         <em>2023-11-14</em>
         <br>
         <ul style="font-size:100%">
-            <!--<li>TOPIC 1</li>-->
+            <li>Generators</li>
+            <li>Coroutines</li>
         </ul>
     </td>
     <td><strong><em>Lecture 22:</em></strong>
         <em>2023-11-16</em>
         <br>
         <ul style="font-size:100%">
-            <!--<li>TOPIC 1</li>-->
+            <li>Python internals</li>
+            <li>Memory</li>
         </ul>
     </td>
     <td style="background-color: rgba(101, 123, 131, 0.1);">
@@ -532,7 +536,7 @@ All due events **with a given date are due on 21:59pm that day**.
         <em>2023-11-21</em>
         <br>
         <ul style="font-size:100%">
-            <!--<li>TOPIC 1</li>-->
+            <li>CATCH UP lecture</li>
         </ul>
     </td>
     <td style="background-color: rgba(174, 129, 255, 0.1);">
@@ -546,13 +550,13 @@ All due events **with a given date are due on 21:59pm that day**.
         <p
         style="margin-top:0;margin-bottom:0;font-size:100%">
         </p>
-<!--        <div style="margin-top:2px">
+        <div style="margin-top:2px">
             <a href="https://code.harvard.edu/CS107/main/tree/master/lab/pp11" target="_blank">
-                <strong><em>PP11: <span style="font-size:100%">(2023-11-20)</span></em></strong>
+                <strong><em>No PP11</em></strong>
             </a>
             <p style="margin-top:0;margin-bottom:0;font-size:100%">
             </p>
-        </div>-->
+        </div>
     </td>
     <td style="background-color: rgba(101, 123, 131, 0.06);">
         <!--<strong><em>Note:</em></strong>-->
@@ -563,8 +567,8 @@ All due events **with a given date are due on 21:59pm that day**.
             All deadlines are due 11:59 pm.-->
         </p>
         <ol style="font-size:100%">
-            <!--<li><span style="color:yellowgreen">HW1 deadline<br>(2023-09-27)</span></li>-->
-        </ol> 
+            <li><span style="color:yellowgreen">PP10 deadline<br>(2023-11-17)</span></li>
+        </ol>
     </td>
 </tr>
 
@@ -575,14 +579,14 @@ All due events **with a given date are due on 21:59pm that day**.
         <em>2023-11-28</em>
         <br>
         <ul style="font-size:100%">
-            <!--<li>TOPIC 1</li>-->
+            <li>Performance</li>
         </ul>
     </td>
     <td><strong><em>Lecture 25:</em></strong>
         <em>2023-11-30</em>
         <br>
         <ul style="font-size:100%">
-            <!--<li>TOPIC 1</li>-->
+            <li>Project work</li>
         </ul>
     </td>
     <td style="background-color: rgba(101, 123, 131, 0.1);">
@@ -590,14 +594,14 @@ All due events **with a given date are due on 21:59pm that day**.
         <p
         style="margin-top:0;margin-bottom:0;font-size:100%">
         </p>
-        <!--<div style="margin-top:2px">
-            <a href="https://code.harvard.edu/CS107/main/tree/master/lab/pp1" target="_blank">
-                <strong><em>PP3: <span style="font-size:100%">(2023-09-25)</span></em></strong>
+        <div style="margin-top:2px">
+            <a href="https://code.harvard.edu/CS107/main/tree/master/lab/pp12" target="_blank">
+                <strong><em>PP12: <span style="font-size:100%">(2023-11-27)</span></em></strong>
             </a>
             <p style="margin-top:0;margin-bottom:0;font-size:100%">
-            Topics PP03
+            TBD
             </p>
-        </div>-->
+        </div>
     </td>
     <td style="background-color: rgba(101, 123, 131, 0.06);">
         <!--<strong><em>Note:</em></strong>-->
@@ -608,18 +612,20 @@ All due events **with a given date are due on 21:59pm that day**.
             All deadlines are due 11:59 pm.-->
         </p>
         <ol style="font-size:100%">
-            <!--<li><span style="color:yellowgreen">HW1 deadline<br>(2023-09-27)</span></li>-->
+            <li><span style="color:tomato">Quiz #3 deadline<br>(2023-11-30)</span></li>
         </ol> 
     </td>
 </tr>
 
 <tr style="font-size:100%">
     <td><strong style="color:orange">11(40)</strong></td>
-    <td><strong><em>Lecture 26:</em></strong>
+    <td><strong><em>No lecture:</em></strong>
         <em>2023-12-05</em>
         <br>
         <ul style="font-size:100%">
-            <!--<li>TOPIC 1</li>-->
+            <li>Work on the project</li>
+            <li>Work on other projects</li>
+            <li>Rest and relax</li>
         </ul>
     </td>
     <td style="background-color: rgba(0, 128, 128, 0.1);">
@@ -645,13 +651,9 @@ All due events **with a given date are due on 21:59pm that day**.
     <td style="background-color: rgba(101, 123, 131, 0.06);">
         <!--<strong><em>Note:</em></strong>-->
         <p style="margin-top:0;margin-bottom:0;font-size:100%">
-            <!--Handouts are typeset in <span style="color:yellowgreen">green</span>
-            and deadlines in <span
-            style="color:tomato">red</span>.
-            All deadlines are due 11:59 pm.-->
         </p>
         <ol style="font-size:100%">
-            <!--<li><span style="color:yellowgreen">HW1 deadline<br>(2023-09-27)</span></li>-->
+            <li><span style="color:yellowgreen">PP12 deadline<br>(2023-12-01)</span></li>
         </ol> 
     </td>
 </tr>
