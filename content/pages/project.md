@@ -6,18 +6,9 @@ Date: 2023-11-08
 
 ### <a id="project-goal"></a><a class="anchor-link" href="#project-goal">Goal</a>
 
-<!--You will develop a software library for a client (the teaching staff).  The
-development of this library will leverage modern software development practices
-covered in the course.  By the end of the semester, the client should be able to
-easily install and run your package.-->
-
 You will develop a software library for a client, the teaching staff. The development of this library will leverage modern software development practices covered in the course. By the end of the semester, the client should be able to easily install and run your package.
 
 ### <a id="project-topic"></a><a class="anchor-link" href="#project-topic">Topic</a>
-
-<!--The project topic is **spectral analysis**, which consists on the anaysis of data obtained from publicly available data that is currently used by professional astronomers to perform state-of-the-art research.
-Moreover, spectral data appears in many fields of science and engineering and you are bound to face it in your professional careers.
-Your final project is to write a `python` library. Your library is not required to have every module  implemented; that would simply be too much for a single semester.  However, your library should meet the basic project expectations outlined in the SRS.-->
 
 The project topic is **spectral analysis**, which consists of the analysis of data obtained from publicly available sources currently used by professional astronomers to perform state-of-the-art research. Moreover, spectral data appears in many fields of science and engineering, and you are likely to encounter it in your professional careers. Your final project is to write a Python library. Your library is not required to have every module implemented; that would simply be too much for a single semester. However, your library should meet the basic project expectations outlined in the Software Requirements Specification (SRS).
 
@@ -29,14 +20,10 @@ The project topic is **spectral analysis**, which consists of the analysis of da
 >
 >| Milestone                                                     | Due                           | Total Points |
 >|---------------------------------------------------------------|-------------------------------|--------------|
->| [Milestone 1]({filename}/project/milestone1/index.md)       | Thu, November 9th, 09:59 PM | 2         |
->| [Milestone 2]({filename}/project/milestone2/index.md)       | Fri, November 10th, 09:59 PM     | 7    |
->| [Milestone 3]({filename}/project/milestone3/index.md)         | Tue, November 14th, 09:59 PM    | 14           |
->| **Total**                                                     |                               |     23 |
-<!-- >| [Milestone 4]({filename}/project/milestone4/index.md)       |     | 2            | -->
-<!-- >| [Milestone 5]({filename}/project/milestone5/index.md)       |    | 2            | -->
-<!-- >| [Milestone 6]({filename}/project/milestone6/index.md)         |      | 30           | -->
-<!-- >| [Final Milestone]({filename}/project/milestoneFinal/index.md) | Fri, December 14th, 09:59 PM  |       | -->
+>| [Milestone 1]({filename}/project/milestone1/index.md)       | Thu, November 2th, 09:59 PM | 1         |
+>| [Milestone 2]({filename}/project/milestone2/index.md)       | Thu, November 9th, 09:59 PM     | 1    |
+>| [Milestone 3]({filename}/project/milestone3/index.md)         | Tue, November 14th, 09:59 PM    | 21           |
+>| **Total**                                                     |                               |     24 |
 
 
 
@@ -51,8 +38,6 @@ experienced coders. **Every person must contribute.**
 
 
 ## <a id="project-expectations"></a><a class="anchor-link" href="#project-expectations">Expectations</a>
-
-<!--This project has a few non-negotiable expectations, which are outlined in **basic expectations** and in Annex A of the Contract. The project also has additional components, which are described in **additional expectations** and in Annex B of the Contract.-->
 This project encompasses several mandatory requirements, detailed under **basic expectations** and within Annex A of the Contract. Furthermore, the project includes supplementary elements, specified under **additional expectations** and delineated in Annex B of the Contract.
 
 ### <a id="project-requirements"></a><a class="anchor-link" href="#project-requirements">Basic Expectations</a>
