@@ -140,15 +140,21 @@
  <h1>Milestone 3</h1>
  <br />
  <blockquote>
-<p><strong>Due: Tuesday, October 4th, 11:59 PM</strong></p>
+<p><strong>Due: Tuesday, November 14th, 09:59 PM</strong></p>
 </blockquote>
 <p>You will now further configure your group repository</p>
+<h2>Software Requirements Specification (SRS)</h2>
+<p>Based on the SRS, you are to identify the Application Programming Interface (API) that your library is required to provide.</p>
 <h2>Git Conventions</h2>
 <p>We expect all work from this point onward do be done on feature branches and merged into <code>master</code> or <code>main</code> via Pull Requests.</p>
 <p>Try to work with different branches and "approve" each others pull requests by reviewing their code and then merge into your default project branch.</p>
 <p><strong>You must work with your project Git repository.  The teaching staff will frequently check the history of your project.</strong></p>
 <h2>Steps to complete</h2>
 <ol>
+<li>Create a private team repository in CS107 organization.</li>
+<li>The project code will be hosted in <em>private</em> repositories within the <a href="https://code.harvard.edu/CS107">CS107 organization</a>. A member of your team must create a private repository named after your team ID (e.g., <code>team01_2023</code> for Team 1). After creating the repository, add all team members to it. The teaching staff will have automatic access and do not need to be added.</li>
+<li>Within your project repository, create a folder named <code>API_draft</code>. Inside this folder, provide a README file detailing the modules, classes, and functions planned for inclusion to meet the SRS requirements. Use this phase to outline your pipeline and begin task allocation among team members. Don't try to be overly specific on the details, as this is likely to change as your code evolves.</li>
+<li>Within the <code>API_draft</code> folder, also upload a schematic diagram that illustrates the modules and the API structure your library will present.</li>
 <li>Within your project repository, you must set up <em>two</em> workflows with <a href="https://docs.github.com/en/actions">GitHub Actions</a>.  One workflow will be used for tests and the other for <a href="https://en.wikipedia.org/wiki/Code_coverage">code coverage</a>.  You will need two <code>.yml</code> files in the <code>.github/workflows</code> directory in your project repository.
    The <code>.yml</code> do not need to have meaningful declarations at this point but you should have at least the <code>name:</code> option and the <code>on:</code> option defined.  See <a href="https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions">this link</a> for more details.
    Make sure the <code>README.md</code> file at the root of your repo includes badges indicating whether your CI workflows are passing or failing.  Your workflows are expected to be failing at this point.  You should end up with a rendered <code>README.md</code> file that looks like this (workflows may <em>fail</em> or have <em>no status</em>):
@@ -167,6 +173,18 @@
 </thead>
 <tbody>
 <tr>
+<td>1</td>
+<td>Creation of team repository</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Describing the API</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Diagram</td>
+</tr>
+<tr>
 <td>5</td>
 <td>Configuring test action</td>
 </tr>
@@ -179,7 +197,7 @@
 <td>Creating project structure</td>
 </tr>
 <tr>
-<td>14</td>
+<td>21</td>
 <td><strong>Total</strong></td>
 </tr>
 </tbody>
