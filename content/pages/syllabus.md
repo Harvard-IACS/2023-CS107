@@ -114,15 +114,15 @@ be required for that class.-->
 >
 > |                                              | Total Weight |
 > |----------------------------------------------|--------------|
-> | [**Homework**](#homework) (7 Homeworks)      | 35%          |
+> | [**Homework**](#homework) ( Homeworks)      | 35%          |
 > | [**Project**](#project)                      | 35%          |
-> | [**Quizzes**](#quizzes)  (4 Quizzes)         | 15%          |
-> | [**Pair-programming**](#pp) (12 sections)    | 15%          |
+> | [**Quizzes**](#quizzes)  (3 Quizzes)         | 15%          |
+> | [**Pair-programming**](#pp) (11 sections)    | 15%          |
 
 
 ### <a id="homework"></a><a class="anchor-link" href="#homework">Homework</a>
 
-There are **7 homework assignments** where each contributes equally to the final
+There are **5 homework assignments** where each contributes equally to the final
 grade. The homework is focused on the topics discussed in class and involves
 programming and theoretical work.  The teaching staff is determined to return
 solutions and graded assignments with feedback after the due date.  It
@@ -227,11 +227,10 @@ Please see the <a href="./project.html">project</a> section for more details.
 There are **4 quizzes** out of class which are graded and intended to assess the
 learning progress.  Each quiz addresses topics _from the lecture material_.
 Quizzes are open book/`www` and include multiple choice questions with at most
-back of the envelope calculations.  Quizzes contain 12 questions and take 25
-minutes.  They are accessible on canvas within a 12 hour time window from 9am to
-9pm at the day of the quiz.
+back of the envelope calculations.  Quizzes contain around 15-20 questions and take 30
+minutes.  They are accessible on canvas within a 24 hour time window from 8pm.
 
-> **Note:** if a quiz takes 25 minutes and you start the quiz on 8:50pm, you
+> **Note:** if a quiz takes 30 minutes and you start the quiz on 8:50pm, you
 > will have only 10 minutes to work on the quiz.
 >
 <!-- > * **Quiz 1: September 22nd, 7:00pm - 7:45pm**, Lecture 1 to 5 -->
@@ -262,9 +261,9 @@ software.  The key is the "pair" in pair-programming.  The exchange of knowledge
 between team mates in these pair-programming sections is essential for learning
 said tools or learning something new from your peers.
 
-> Please see the following file in the class `git` repository for the details:
+<!--> Please see the following file in the class `git` repository for the details:
 >
-> * <https://code.harvard.edu/CS107/main/blob/master/lab_groups.xls>
+> * <https://code.harvard.edu/CS107/main/blob/master/lab_groups.xls>-->
 
 #### <a id="pp-submission"></a><a class="anchor-link" href="#pp-submission">Pair-programming Submissions</a>
 
