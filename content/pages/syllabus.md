@@ -114,7 +114,7 @@ be required for that class.-->
 >
 > |                                              | Total Weight |
 > |----------------------------------------------|--------------|
-> | [**Homework**](#homework) ( Homeworks)      | 35%          |
+> | [**Homework**](#homework) (5 Homeworks)      | 35%          |
 > | [**Project**](#project)                      | 35%          |
 > | [**Quizzes**](#quizzes)  (3 Quizzes)         | 15%          |
 > | [**Pair-programming**](#pp) (11 sections)    | 15%          |
