@@ -20,10 +20,11 @@ The project topic is **spectral analysis**, which consists of the analysis of da
 >
 >| Milestone                                                     | Due                           | Total Points |
 >|---------------------------------------------------------------|-------------------------------|--------------|
->| [Milestone 1]({filename}/project/milestone1/index.md)       | Thu, November 2th, 09:59 PM | 1         |
+>| [Milestone 1]({filename}/project/milestone1/index.md)       | Thu, November 2nd, 09:59 PM | 1         |
 >| [Milestone 2]({filename}/project/milestone2/index.md)       | Thu, November 9th, 09:59 PM     | 1    |
 >| [Milestone 3]({filename}/project/milestone3/index.md)         | Tue, November 14th, 09:59 PM    | 21           |
->| **Total**                                                     |                               |     24 |
+>| [Milestone 4]({filename}/project/milestone4/index.md)         | Mon, November 27th, 09:59 PM    | 23           |
+>| **Total**                                                     |                               |     46|
 
 
 
