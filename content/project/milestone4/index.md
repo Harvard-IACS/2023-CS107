@@ -4,7 +4,10 @@ Date: 2023-11-16
 Slug: M4
 Author: Ignacio Becker
 
-> **Due: Monday, November 27th, 09:59 PM**
+
+>**Due:**<span style="text-decoration: line-through;"> **Monday, November 27th, 09:59 PM**</span>
+
+>  **Tuesday, November 28th, 09:59 PM**
 
 You will now start the development of the library modules. As part of test-driven design, you should first write the tests of a functionality, and then write the code, based on the API you defined in Milestone 3.
 
