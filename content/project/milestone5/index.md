@@ -9,7 +9,7 @@ Author: Ignacio Becker
 With the development in full swing, many modules should now be ready. This milestone is to ensure that some of these modules work together correctly.
 
 
-### API tunning
+### API tuning
 During project development, you'll gain insights about the structure and modules. It's possible that the initial API isn't ideal, so you might need to revise it. This involves updating the API documentation, diagrams, and, most importantly, the code to align with the new API.
 
 If your API draft still meets the contract requirements, you can choose not to modify it. In this case, add a small appendix explaining why it remains unchanged.
@@ -18,12 +18,12 @@ In the remainder of this document, we'll refer to the latest version of the API 
 
 ### Features and Integration
 
-Developing individual features is usually straightforward. The real challenge lies in integrating them smoothly. For this item, develop features from different modules and conduct integration tests using GitHub Actions. You can merge features into the `dev` branch once they pass your tests. However, keep the feature development branches until reviewed by the teaching staff.
+Developing individual features is usually straightforward. The real challenge lies in integrating them smoothly. For this item, develop features from different modules and conduct integration tests using GitHub Actions. You can merge features into the `dev` branch once they pass your tests. However, keep the feature development branches until reviewed by the teaching staff. The teaching staff will grade the `dev`branch.
 
 Make sure to commit often in the local repository, `as it is part of the evaluation`. Tests must be *commited and pushed* before any code is written.
 
 - Design and write your integration tests based on the `modified` API.
-- Work on at least two consecutive modules. This includes writing unit tests, coding, and documentation.
+- Work on at least two consecutive modules. This includes writing unit tests, coding, and documentation (docstring).
       - If the modules are already created: Merge the integration tests into the `dev` branch.
       - If only one module is developed: Merge the integration tests into `dev` before starting the second module.
       - If no modules are created: Merge the integration tests into `dev` first, before any module development.
@@ -58,10 +58,10 @@ For Annex B:
 
 ## Steps to complete
 
-1. Re-evaluate the document written in the folder `draft_API`. Make the require modifications both in your diagram and the document.
+1. Re-evaluate the document written in the folder `API_draft`. Make the require modifications both in your diagram and the document.
 2. Based on the `modified` API, reorganize your library in the `dev` branch.
 3. Write the integration tests on the `dev` branch.
-4. Complete the implementation of at least two modules and test their integration. Every change in the library should trigger integration tests.
+4. Complete the implementation of at least two modules of your choosing and test their integration. Every change in the library should trigger integration tests via Github Actions.
 5. In `milestone5`, describe the rationale behind any API changes. This should include:
       - Why the API was modified, focusing on how the changes improve functionality, usability, or adaptability to project requirements.
       - Discuss how these changes enhance the integration of different modules. List the specific module names that need to be evaluated by the teaching staff for their integration.
