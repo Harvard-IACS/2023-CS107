@@ -140,53 +140,70 @@
  <h1>Milestone 5</h1>
  <br />
  <blockquote>
-<p><strong>Tuesday, December 11th, 09:59 PM</strong></p>
+<p><strong>Monday, December 11th, 09:59 PM</strong></p>
 </blockquote>
-<p>With the development in full swing, this milestone aims to check the integration of a few modules.</p>
+<p>With the development in full swing, many modules should now be ready. This milestone is to ensure that some of these modules work together correctly.</p>
 <h3>API tunning</h3>
-<p>As you develop the project, you learn more about the structure, the modules, and so on. The initial API might not be the best, and you might want to change it. You can leave your API draft untouched, as long as it complies with the contract conditions. For the rest of this document, it the latest version of your API will be referred as <code>modified</code>.</p>
+<p>During project development, you'll gain insights about the structure and modules. It's possible that the initial API isn't ideal, so you might need to revise it. This involves updating the API documentation, diagrams, and, most importantly, the code to align with the new API.</p>
+<p>If your API draft still meets the contract requirements, you can choose not to modify it. In this case, add a small appendix explaining why it remains unchanged.</p>
+<p>In the remainder of this document, we'll refer to the latest version of the API as the <code>modified</code> version.</p>
 <h3>Features and Integration</h3>
-<p>Developing individual features is straightforward. Integrating them into a cohesive piece of code is the challenge.
-For this item, develop features of different modules, and perform integration tests on github actions.
-You can merge into <code>dev</code> when the feature pass your tests, but <em>Do not delete the branches used to develop new features until the teaching staff review them.</em>
-Remember to commit frequently. Tests should be <em>commited and pushed</em> before any code is written.</p>
+<p>Developing individual features is usually straightforward. The real challenge lies in integrating them smoothly. For this item, develop features from different modules and conduct integration tests using GitHub Actions. You can merge features into the <code>dev</code> branch once they pass your tests. However, keep the feature development branches until reviewed by the teaching staff.</p>
+<p>Make sure to commit often in the local repository, <code>as it is part of the evaluation</code>. Tests must be <em>commited and pushed</em> before any code is written.</p>
 <ul>
-<li>Write the integration tests according to your <code>modified</code> API.</li>
-<li>Implement at least two consecutive modules, including the unit tests, code and documentation. If you have already written the modules, you still have to push the tests first.</li>
-<li>The integration of two modules is correct when all the integration tests pass.</li>
+<li>Design and write your integration tests based on the <code>modified</code> API.</li>
+<li>Work on at least two consecutive modules. This includes writing unit tests, coding, and documentation.<ul>
+<li>If the modules are already created: Merge the integration tests into the <code>dev</code> branch.</li>
+<li>If only one module is developed: Merge the integration tests into <code>dev</code> before starting the second module.</li>
+<li>If no modules are created: Merge the integration tests into <code>dev</code> first, before any module development.</li>
 </ul>
-<p><code>Note</code>: You <em>should</em> commit multiple times to your local repository and clean the local history if needed. Push only when you pass the unit tests.</p>
+</li>
+<li>Successful integration of two modules is confirmed when all integration tests pass.</li>
+</ul>
+<p><code>Note</code>: Regularly commit to your local repository and tidy up the history as needed. Push your changes only after passing the unit tests.</p>
+<h3>SFS clarifications and modifications</h3>
+<!-- You should focus on developing the code and even using placeholder functions. As stated in the contract, any modification should be easy and straightforward to change. -->
+<p>Your main focus should be to complete the pipeline. Use placeholder functions if necessary. Any modifications, as per the contract, should be straightforward.</p>
+<h3>Clarifications of the Software Requirements Specifications</h3>
+<p>For Annex A:</p>
+<ul>
+<li>3.A: Each task listed in this item should be aplpied to one spectrum.</li>
+<li>3.B: Include the class (STAR, GALAXY, or QSO) in the metadata. The spectrum is the data; metadata is everything else related to it.</li>
+<li>3.C: Aligning in wavelength means sub-sampling the wavelengths. For a given list of target wavelengths, return a flux value for each.</li>
+<li>4: The inferred continuum is a line derived from the data, excluding any emission or absorption lines.</li>
+<li>5: Data augmentation module execution is optional. If used, the user inputs the degree of required derivatives.</li>
+</ul>
+<p>For Annex B:</p>
+<ul>
+<li>2: The machine learning module should primarily use spectral data. It can include other metadata. The results should report a confussion matrix.</li>
+<li>3: Total flux of spectral lines must use an inferred continuum. The method for calculating line area is defined by Developer, and should be well-documented and easily modifiable.</li>
+</ul>
+<h4>Modifications of the Software Requirements Specification</h4>
+<ul>
+<li>Annex A - 3.B: Replace chemical abundances with the value of Equivalent Width for each line detected by the SDSS pipeline.</li>
+<li>Annex B - New task: Report the chemical abundances of stars from the <a href="https://www.sdss4.org/dr17/irspec/">APOGEE survey</a>.</li>
+</ul>
 <h2>Steps to complete</h2>
 <ol>
-<li>In the <code>main</code> branch and within your <code>docs</code> sub-directory, create a file called <code>milestone4</code>. The type of file is up to you and your group. Two acceptable choices are markdown (<code>milestone4.md</code>) or a Jupyter notebook (<code>milestone4.ipynb</code>).</li>
-<li>Your <code>milestone4</code> document submission should be in the following format:</li>
-</ol>
-<div class="highlight"><pre><span></span><code>teamXX/
-├── docs
-│   └── milestone4
-├── LICENSE
-├── README.md
-└── ...
-</code></pre></div>
-
-<ol>
-<li>Describe the software organization and licencing in <code>milestone4</code>.</li>
-<li>Create branch <code>dev</code>.</li>
-<li>Create the branch <code>featurename</code> to implement your module. Replace "featurename" with the name of the module you want to implement.</li>
-<li>In that branch, write the tests for the module you want to implement. <em>You should commit them before the writing/pushing any other code</em>.</li>
-<li>Write the code for the module you wrote the tests for.</li>
-<li>Every test for the modules should pass.</li>
-<li>The code coverage must be at least 90%.</li>
-<li>Merge the branch into <code>dev</code>.</li>
-<li>(Optional) You can implement another feature, following steps 5-10. You are encouraged to develop the main modules as soon as possible, to focus on the integration later on.</li>
+<li>Re-evaluate the document written in the folder <code>draft_API</code>. Make the require modifications both in your diagram and the document.</li>
+<li>Based on the <code>modified</code> API, reorganize your library in the <code>dev</code> branch.</li>
+<li>Write the integration tests on the <code>dev</code> branch.</li>
+<li>Complete the implementation of at least two modules and test their integration. Every change in the library should trigger integration tests.</li>
+<li>In <code>milestone5</code>, describe the rationale behind any API changes. This should include:<ul>
+<li>Why the API was modified, focusing on how the changes improve functionality, usability, or adaptability to project requirements.</li>
+<li>Discuss how these changes enhance the integration of different modules. List the specific module names that need to be evaluated by the teaching staff for their integration.</li>
+</ul>
+</li>
 </ol>
 <h2>Final Deliverables</h2>
+<p>The final deliverables for this milestone should be uploaded only on the Github page. No emails are neccesary.</p>
 <ol>
-<li>The <code>docs/</code> directory should include a document called <code>milestone4</code> (the
-   extension is up to you, but <code>.md</code> or <code>.ipynb</code> are recommended.</li>
-<li>Proper licensing of your project.</li>
-<li>Tests and implementation for your module(s).</li>
+<li>Updated API document and its diagram. Place these in the <code>draft_API</code> folder.</li>
+<li>The <code>docs/</code> directory should include a document called <code>milestone5</code>.</li>
+<li>Integration tests for <em>at least</em> two modules.</li>
 </ol>
+<p><code>Note 1</code>: By now you should have implemented many modules, and most of the items requested in the milestone.</p>
+<p><code>Note 2</code>: The reading period ranges from December 6th to December 10th. You are <span style="font-size:28px;"><strong>highly encouraged</strong></span> to submit earlier (notifying your liaison by email) to receive feedback.</p>
 <h2>Grading breakdown</h2>
 <blockquote>
 <table>
@@ -198,23 +215,19 @@ Remember to commit frequently. Tests should be <em>commited and pushed</em> befo
 </thead>
 <tbody>
 <tr>
-<td>4</td>
-<td>Software Organization</td>
-</tr>
-<tr>
-<td>4</td>
-<td>License</td>
-</tr>
-<tr>
 <td>15</td>
-<td>Implementation</td>
+<td>API</td>
 </tr>
 <tr>
-<td>15</td>
-<td>(optional) Additional implementation</td>
+<td>20</td>
+<td>Modules</td>
 </tr>
 <tr>
-<td>23(38)</td>
+<td>20</td>
+<td>Integration tests</td>
+</tr>
+<tr>
+<td>55</td>
 <td><strong>Total</strong></td>
 </tr>
 </tbody>
@@ -223,7 +236,7 @@ Remember to commit frequently. Tests should be <em>commited and pushed</em> befo
 
 <footer class="footer">
   <div class="container">
-    <span class="text-muted">Copyright 2022 &copy;
+    <span class="text-muted">Copyright 2023 &copy;
       <a class="text-muted" href="https://iacs.seas.harvard.edu/">Institute for Applied Computational Science</a>
     </span>
   </div>
