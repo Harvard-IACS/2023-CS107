@@ -143,16 +143,16 @@
 <p><strong>Monday, December 11th, 09:59 PM</strong></p>
 </blockquote>
 <p>With the development in full swing, many modules should now be ready. This milestone is to ensure that some of these modules work together correctly.</p>
-<h3>API tunning</h3>
+<h3>API tuning</h3>
 <p>During project development, you'll gain insights about the structure and modules. It's possible that the initial API isn't ideal, so you might need to revise it. This involves updating the API documentation, diagrams, and, most importantly, the code to align with the new API.</p>
 <p>If your API draft still meets the contract requirements, you can choose not to modify it. In this case, add a small appendix explaining why it remains unchanged.</p>
 <p>In the remainder of this document, we'll refer to the latest version of the API as the <code>modified</code> version.</p>
 <h3>Features and Integration</h3>
-<p>Developing individual features is usually straightforward. The real challenge lies in integrating them smoothly. For this item, develop features from different modules and conduct integration tests using GitHub Actions. You can merge features into the <code>dev</code> branch once they pass your tests. However, keep the feature development branches until reviewed by the teaching staff.</p>
+<p>Developing individual features is usually straightforward. The real challenge lies in integrating them smoothly. For this item, develop features from different modules and conduct integration tests using GitHub Actions. You can merge features into the <code>dev</code> branch once they pass your tests. However, keep the feature development branches until reviewed by the teaching staff. The teaching staff will grade the <code>dev</code>branch.</p>
 <p>Make sure to commit often in the local repository, <code>as it is part of the evaluation</code>. Tests must be <em>commited and pushed</em> before any code is written.</p>
 <ul>
 <li>Design and write your integration tests based on the <code>modified</code> API.</li>
-<li>Work on at least two consecutive modules. This includes writing unit tests, coding, and documentation.<ul>
+<li>Work on at least two consecutive modules. This includes writing unit tests, coding, and documentation (docstring).<ul>
 <li>If the modules are already created: Merge the integration tests into the <code>dev</code> branch.</li>
 <li>If only one module is developed: Merge the integration tests into <code>dev</code> before starting the second module.</li>
 <li>If no modules are created: Merge the integration tests into <code>dev</code> first, before any module development.</li>
@@ -185,10 +185,10 @@
 </ul>
 <h2>Steps to complete</h2>
 <ol>
-<li>Re-evaluate the document written in the folder <code>draft_API</code>. Make the require modifications both in your diagram and the document.</li>
+<li>Re-evaluate the document written in the folder <code>API_draft</code>. Make the require modifications both in your diagram and the document.</li>
 <li>Based on the <code>modified</code> API, reorganize your library in the <code>dev</code> branch.</li>
 <li>Write the integration tests on the <code>dev</code> branch.</li>
-<li>Complete the implementation of at least two modules and test their integration. Every change in the library should trigger integration tests.</li>
+<li>Complete the implementation of at least two modules of your choosing and test their integration. Every change in the library should trigger integration tests via Github Actions.</li>
 <li>In <code>milestone5</code>, describe the rationale behind any API changes. This should include:<ul>
 <li>Why the API was modified, focusing on how the changes improve functionality, usability, or adaptability to project requirements.</li>
 <li>Discuss how these changes enhance the integration of different modules. List the specific module names that need to be evaluated by the teaching staff for their integration.</li>
