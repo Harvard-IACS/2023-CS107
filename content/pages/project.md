@@ -68,15 +68,3 @@ In addition to the basic requirements of the library, you must also extend your 
 * Spectral Feature Extraction
 
 You are more than welcome to pitch your own idea, which must be approved by the Teaching Staff.
-
-### <a id="project-impact"></a><a class="anchor-link" href="#project-impact">Broader Impact</a>
-
-You must write a broader impact statement for your library. The broader impact
-should consider the accessibility of your software library to different groups
-of people. This statement should be around 250 words (approximately 1/2 page).
-It can be placed in the `README.md` of your library. Things to consider when
-writing this statement are:
-
-1. How will you make your library accessible to different groups?
-2. What process will contributions to your library need to go through?
-3. How will you ensure that this process is fair and welcoming to all groups?
