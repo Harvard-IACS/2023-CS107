@@ -13,7 +13,7 @@ In this **final milestone**, you're tasked with delivering the library as outlin
 
 Your goal is to publish the first version of your library. Once the documentation is complete, it passes all tests, and every feature is implemented, you can merge it into the main branch. Use this branch to publish the library on Test PyPI.
 
-Each module will be graded and is worth 15 points: six for unit tests, six for implementation, and three for documentation.
+Each module will be graded and is worth 15 points: six for unit tests, six for implementation, and three for documentation. Each library implementation will have a different number of modules and they will be given points. In this milestone, we will grade the reamining *X* ungraded modules.
 
 All the integration tests must be implemented to check the API you defined (and refined) earlier. If the integration test suite is incomplete, your score will be reduced.
 
@@ -27,7 +27,7 @@ The explanation in the video should not exceed 7 minutes. While there's no stric
 
 
 ### Self-evaluation
-Each team member is required to upload an estimate of the hours they dedicated to the project in the `dev` branch of your repository. Along with this, include a brief summary of your main contributions. *Submit these estimates through pull requests, which should not be accepted by the author*.
+Each team member is required to upload an estimate of the hours they dedicated to the project in the `dev` branch of your repository. Along with this, include a brief summary of your main contributions. **Submit these estimates through pull requests, which should not be accepted by the author**.
 
 We'll review the commit history of the repository. Special considerations may be made in exceptional cases.
 
