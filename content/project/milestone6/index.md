@@ -1,4 +1,4 @@
-Title:  Milestone 6
+Title:  Milestone 6 (Final)
 Category: Project
 Date: 2023-12-12
 Slug: M6
@@ -21,9 +21,9 @@ All the integration tests must be implemented to check the API you defined (and 
 
 For the final presentation, you need to create a Jupyter notebook that explains your library's functionalities. This includes demonstrating how to execute required functions and handle exceptions.
 
-Upload a video to your repository to Youtube or or Google Drive in private or shared mode. You must show the real-time installation `and` execution of the library. **Every team member must participate**. Feel free to use any VM, virtual environment, or Docker container.
+Upload a video to your repository to Youtube or or Google Drive in private or shared mode. You must show the real-time installation **and** execution of the library. **Every team member must participate**. Feel free to use any VM, virtual environment, or Docker container.
 
-The explanation in the video should not exceed 7 minutes. While there's no strict limit on installation time, please keep it within a reasonable duration. Write the link on at the end of your Jupyter notebook. **It is your responsability to give the appropiate permisions. If the video is not present, you will not accesible, you will not receive the points.**
+The explanation in the video should not exceed 7 minutes. While there's no strict limit on installation time, please keep it within a reasonable duration. Write the link on at the end of your Jupyter notebook. **It is your responsability to give the appropiate permisions. If the video is not present or not accesible by the teaching staff, you will not receive the points.**
 
 
 ### Self-evaluation

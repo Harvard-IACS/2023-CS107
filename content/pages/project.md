@@ -16,7 +16,7 @@ The project topic is **spectral analysis**, which consists of the analysis of da
 
 
 >The following weight table is used for individual milestones of the project. The individual milestones make up the final project grade listed under the <a href="./syllabus.html#grading">Grading</a> section in the syllabus. Additional milestones will be included in the near future.
->**The due date for the final milestone is December 14th 2023, 09:59 PM.**
+><span style="text-decoration: line-through;">The due date for the final milestone is December 14th 2023, 09:59 PM.</span>** The due date for the final milestone is December 17th 2023, 09:59 PM.**
 >
 >| Milestone                                                     | Due                           | Total Points |
 >|---------------------------------------------------------------|-------------------------------|--------------|
@@ -25,8 +25,8 @@ The project topic is **spectral analysis**, which consists of the analysis of da
 >| [Milestone 3]({filename}/project/milestone3/index.md)         | Tue, November 14th, 09:59 PM    | 21           |
 >| [Milestone 4]({filename}/project/milestone4/index.md)         | Tue, November 28th, 09:59 PM    | 23           |
 >| [Milestone 5]({filename}/project/milestone5/index.md)         | Mon, December 11th, 09:59 PM    | 55           |
->| [Milestone 6]({filename}/project/milestone6/index.md)          | Sun, December 17th, 09:59 PM    | 225 = 15XX           |
->| **Total**                                                     |                               |     326 + 15XX|
+>| [Milestone 6 (Final)]({filename}/project/milestone6/index.md)          | Sun, December 17th, 09:59 PM    | 225 + 15X           |
+>| **Total**                                                     |                               |     326 + 15X|
 
 
 
