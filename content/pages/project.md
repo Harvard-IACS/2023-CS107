@@ -25,8 +25,8 @@ The project topic is **spectral analysis**, which consists of the analysis of da
 >| [Milestone 3]({filename}/project/milestone3/index.md)         | Tue, November 14th, 09:59 PM    | 21           |
 >| [Milestone 4]({filename}/project/milestone4/index.md)         | Tue, November 28th, 09:59 PM    | 23           |
 >| [Milestone 5]({filename}/project/milestone5/index.md)         | Mon, December 11th, 09:59 PM    | 55           |
->| Milestone 6         | Thu, December 14th, 09:59 PM    | XX           |
->| **Total**                                                     |                               |     101 + XX|
+>| [Milestone 6]({filename}/project/milestone6/index.md)          | Sun, December 17th, 09:59 PM    | 225 = 15XX           |
+>| **Total**                                                     |                               |     326 + 15XX|
 
 
 
