@@ -39,6 +39,16 @@ For this milestone, all final deliverables should be uploaded exclusively to the
 3. Record and upload a video presentation demonstrating the library's installation and functionality.
 4. Each team member's self-evaluation in the `dev` branch README.
 
+### Exceptions
+
+Submission of the Jupyter Notebook example is mandatory, while the video is optional. Both serve to demonstrate your work.
+
+If you choose not to submit the video:
+
+-   No points will be awarded for 'Library on Test PyPI' and 'Video Presentation' if the library installation fails.
+-   If the library installation succeeds but tests fail, you will receive points for 'Library on Test PyPI' but lose points for 'Video Presentation'.
+-   Points for both 'Library on Test PyPI' and 'Video Presentation' will be awarded if the installation and tests are successful.
+
 
 ## Grading breakdown
 
