@@ -35,7 +35,7 @@ We'll review the commit history of the repository. Special considerations may be
 For this milestone, all final deliverables should be uploaded exclusively to the Github page. There's no need to send emails.
 
 1. Publish your library on Test PyPI. Include the link in the `main` branch's README file.
-2. A Jupyter notebook that showcases how your library works.
+2. A Jupyter notebook that showcases how your library works. Place it in a new `tutorial/` directory on the `dev` branch.
 3. Record and upload a video presentation demonstrating the library's installation and functionality.
 4. Each team member's self-evaluation in the `dev` branch README.
 
